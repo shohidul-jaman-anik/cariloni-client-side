@@ -1,0 +1,25 @@
+.numberContainer {
+  height: 2rem;
+  width: 2rem;
+  background-color: #195ca5;
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .numberContainer:hover {
+    color: #195ca5;
+    background-color: white;
+} */
+
+.how-work:hover .numberContainer {
+    color: #195ca5;
+    background-color: white;
+}
+
+.how-work:hover {
+    background-color: #195ca5;
+}
