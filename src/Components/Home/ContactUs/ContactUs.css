@@ -1,0 +1,21 @@
+.contactContainer {
+    padding: 5% 15% ;
+}
+.contactInfo{
+    margin-right: 8%;
+}
+.contactInfo > p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  color: #001e3e;
+  
+}
+
+.contactInfo > h1 {
+  text-align: end;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+}

@@ -1,8 +1,25 @@
 .bannerContainer {
-  background-color: #133e6d;
-  padding: 15%;
+  /* background-color: #133e6d; */
+  background-image: linear-gradient(115.66deg, #18314B 9.36%, #14283E 49.81%);
+  padding: 5% 15% ;
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* font-family: "Barlow"; */
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
 }
 
 .highliteText {
   color: #f5f05e;
+}
+
+.bannerImg {
+  width: 687px;
+  height: 662px;
+  left: 966px;
+  /* top: 261px; */
+  margin-bottom: 10%;
 }

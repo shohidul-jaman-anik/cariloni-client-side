@@ -1,0 +1,29 @@
+.dealContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5% 15%;
+}
+.dealExampleSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.ExampleDetails h1 {
+  color: #001e3e;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+.dealHeading {
+  color: #001e3e;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 4rem;
+}
+.ExampleImage {
+  background-image: url("../../../Asset/Page1/Rectangle\ 66.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}

@@ -1,0 +1,20 @@
+.carloniContainer {
+  /* background-color:  #132F50F2;; */
+  /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
+  background-image: url("../../../Asset/Page1/Rectangle13.png"),url("../../../Asset/Page1/Vector13.png");
+  background-repeat: no-repeat;
+}
+.carloni-section {
+  padding: 0% 15% 0% 15% ;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.carloniBtn{
+    background-color: #F5F05E;
+}
+/* .subPng{
+     background-image: url("../../../Asset/Page1/Rectangle72.png");
+     bottom: 0;
+    
+} */

@@ -1,0 +1,8 @@
+.commonBannerComponent{
+    padding: 6% 15% ;
+    background-image: url("../../../Asset/AboutPage/Bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+

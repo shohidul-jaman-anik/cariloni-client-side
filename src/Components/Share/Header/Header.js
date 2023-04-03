@@ -1,6 +1,8 @@
 import React from "react";
 import ShareButton from "../ShareButton/ShareButton";
 import { Link } from "react-router-dom";
+import "./Header.css"
+
 
 const Header = () => {
   const menuItems = (
@@ -9,28 +11,28 @@ const Header = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Services</Link>
+        <Link to="/services">Services</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">About</Link>
+        <Link to="/about">About</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Blog</Link>
+        <Link to="/blogs">Blog</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Testmonials</Link>
+        <Link to="/testimonials">Testmonials</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Report</Link>
+        <Link to="/report">Report</Link>
       </li>
-      <li className="font-bold">
+      {/* <li className="font-bold">
         <Link to="/">Apply</Link>
-      </li>
+      </li> */}
     </>
   );
   return (
     <div>
-      <div className="navbar bg-base-100 px-64">
+      <div className="navContainer  navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -65,7 +67,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
         <div className="navbar-end">
-          <ShareButton>Contact</ShareButton>
+          <button  className="btn btn-outline btn-white border-white text-white bg-slate-900">Contact</button>
         </div>
       </div>
     </div>

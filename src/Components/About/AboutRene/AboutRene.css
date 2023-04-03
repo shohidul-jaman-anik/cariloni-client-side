@@ -1,0 +1,15 @@
+.reneContainer {
+    /* background-color:  #132F50F2;; */
+    /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
+    background-image: url("../../../Asset/AboutPage/Rectangle\ 22.png");
+    background-repeat: no-repeat;
+  }
+  .carloni-section {
+    padding: 5% 15% 5% 15% ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .carloniBtn{
+      background-color: #F5F05E;
+  }

@@ -1,3 +1,11 @@
+.how-work-container{
+    background-image: url("../../../Asset/Page1/Rectangle22.png");
+    background-repeat: no-repeat;
+    padding: 7% 15% ;
+    background-size: cover;
+}
+
+
 .numberContainer {
   height: 2rem;
   width: 2rem;

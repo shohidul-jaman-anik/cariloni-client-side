@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Pre-Approval",
+    "description": "First time home buyer programs for as little as 5% downpayment, and much more Pre-qualify and shop with confidence.",
+    "img": "https://i.ibb.co/SNSvHDp/Rectangle-9602.png",
+    "logo": "https://i.ibb.co/4VzS674/Group-41662.png"
+  },
+  {
+    "id": 2,
+    "name": "Purchases",
+    "description": "Residential mortgages, investment mortgages, commercial lending, and much more. We manage all types of property purchases.",
+    "img": "https://i.ibb.co/XxWxwxT/Rectangle-9603.png",
+    "logo": "https://i.ibb.co/XtjQzKk/Group-41665.png"
+  },
+  {
+    "id": 3,
+    "name": "Refinances & Equity Loans",
+    "description": "Home equity loans, mortgage refinancing, debt consolidation, investment loans and much more.",
+    "img": "https://i.ibb.co/Qb980cP/Rectangle-9604.png",
+    "logo": "https://i.ibb.co/Mhxj3sT/Group-41664.png"
+  },
+  {
+    "id": 4,
+    "name": "Self-Employed",
+    "description": "We get small-to-medium business owners,freelancers, and entrepreneurs the loans and the terms they need.",
+    "img": "https://i.ibb.co/Qbd6D40/Rectangle-9605.png",
+    "logo": "https://i.ibb.co/SmVvcHz/Group-41666.png"
+  },
+  {
+    "id": 5,
+    "name": "Renewals",
+    "description": "We will renegotiate a contract with new terms that work even better for you.No need to switch banks!",
+    "img": "https://i.ibb.co/ZfbRt6Y/Rectangle-9606.png",
+    "logo": "https://i.ibb.co/b5QWsZ2/Group-41667.png"
+  },
+  {
+    "id": 6,
+    "name": "Private Mortgages",
+    "description": "Don't want to borrow from big banks? We'll help you get a loan through other sources.",
+    "img": "https://i.ibb.co/tJTgCNr/Rectangle-9607.png",
+    "logo": "https://i.ibb.co/qkw4jQ0/Group-41668.png"
+  },
+  {
+    "id": 7,
+    "name": "Debt Consolidation",
+    "description": "Very few people know that they can go to a mortgage broker to consolidate debt. In reality,it’s the best course of action",
+    "img": "https://i.ibb.co/P4dzFJX/Rectangle-9611.png",
+    "logo": "https://i.ibb.co/LxRMBbr/Group-41669.png"
+  },
+ 
+  {
+    "id": 8,
+    "name": "Home Equity Loans",
+    "description": "For the unfamiliar, a home equity loan is exactly what it sounds like. As a homeowner you can take out a line of credit by using your home as collateral. ",
+    "img": "https://i.ibb.co/NK9yNFb/Rectangle-9612.png",
+    "logo": "https://i.ibb.co/bspM05C/Group-41670.png"
+  },
+  {
+    "id": 9,
+    "name": "Vacation Properties",
+    "description": "sk anyone where they envision the most idyllic vacation home in BC (or even Canada, for that matter) and they’ll tell you the Okanagan Valley.",
+    "img": "https://i.ibb.co/mTxMrmy/Rectangle-9613.png",
+    "logo": "https://i.ibb.co/z2zzxHf/Group-41671.png"
+  },
+  {
+    "id": 10,
+    "name": "Commercial Mortgage",
+    "description": "The Southern Interior of BC is booming and more businesses are entering the fold with each new year. Penticton in particular offers an incredible opportunity",
+    "img": "https://i.ibb.co/60XqgNC/Rectangle-9617.png",
+    "logo": "https://i.ibb.co/VBscpSx/Group-41673.png"
+  },
+  {
+    "id": 11,
+    "name": "Second Mortgage",
+    "description": "Buying a second home is a huge milestone. Whether you have your first one paid-off, or you’re near the end of its term,",
+    "img": "https://i.ibb.co/YX6yZgR/Rectangle-9618.png",
+    "logo": "https://i.ibb.co/CW5Zqwc/Group-41674.png"
+  }
+]
