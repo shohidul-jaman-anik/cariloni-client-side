@@ -3,6 +3,8 @@ import ShareButton from "../../Share/ShareButton/ShareButton";
 import { Link } from "react-router-dom";
 import carloni from "../../../Asset/Page1/carloni.png";
 import "./AboutCarloni.css";
+import arrow from "../../../Asset/Page1/Arrow 1.png"
+
 
 const AboutCarloni = () => {
   return (
@@ -11,9 +13,9 @@ const AboutCarloni = () => {
         <div className="flex-1 hidden lg:block lg:mr-20">
           <img className="mt-[-55px]" src={carloni} alt="" />
         </div>
-        <div className="flex-1 text-white">
+        <div className="flex-1 text-white carloniContent">
           <h1 className="font-bold text-4xl">
-            About <span className="subPng">Carloni Mortgage</span>
+            About <span className="underlineArrow">Carloni Mortgage</span>
           </h1>
           <p className="mt-5">
             Our Philosophy is Simple. "If it Makes Sense, We get It Done."
@@ -27,10 +29,14 @@ const AboutCarloni = () => {
           </p>
 
           <p className="mt-5">-You've Come To The Right Place.</p>
-          <div className="my-5">
+          <div className="my-5 flex items-center">
             <button className="btn btn-outline carloniBtn">
               <Link to="/">Read More</Link>
             </button>
+            <p className="ms-5 text-yellow-200 flex">About Rene Carluni <img src={arrow} alt="arrow" className="ms-3"></img></p>
+          </div>
+          <div className="boxArrow">
+             
           </div>
         </div>
       </div>

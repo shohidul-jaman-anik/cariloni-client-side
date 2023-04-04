@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ShareButton from "../Share/ShareButton/ShareButton";
+import mgs from "../../Asset/tesimonial/mgs.png";
+import "./Testimonials.css";
 
 const Testimonials = () => {
   const [reviews, setReviews] = useState([]);
@@ -11,28 +13,20 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section class="text-gray-600 body-font servicesContainer">
-     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        {reviews.map((review) => (
-          <div className="card bg-base-100 shadow-xl">
-            <div className="pt-10 ps-10">
-              {/* <img
-                src={review.img}
-                alt="reviews name"
-                className="rounded-xl h-16 w-16 "
-              /> */}
-            </div>
-            <div className="card-body">
-              <h2 className="card-title text-gray-700">{review.name}</h2>
-              <p>{review.review}</p>
-            </div>
-          </div>
-        ))}
+    <div className="testimonialContainer grid grid-cols-3 gap-5">
+      {reviews.map((review) => (
+        <div className="border p-10 ">
+          <img src={mgs} alt="reviews name" className=" h-16 w-16 " />
+          <p>{review.review}</p>
+          <h2 className="mt-7 font-bold text-gray-800">{review.name}</h2>
+          <h2 className="">{review.ratings}</h2>
+        </div>
+      ))}
+
+      <div className="text-center my-10 ">
+        <button className="btn bg-sky-900 mx-auto text-center">Load More</button>
       </div>
-      <div className="text-center my-10">
-        <ShareButton className="">See More</ShareButton>
-      </div>
-    </section>
+    </div>
   );
 };
 

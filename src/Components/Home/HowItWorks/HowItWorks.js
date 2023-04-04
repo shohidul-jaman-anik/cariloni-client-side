@@ -4,8 +4,8 @@ import "./HowItWorks.css";
 const HowItWorks = () => {
   return (
     <div className="how-work-container">
-      <h1 className="text-white text-4xl font-semibold mb-16 text-center">How It Works</h1>
-      <div className="grid grid-cols-4 ">
+      <h1 className="text-white text-4xl font-semibold mb-16 text-center">How <span className="underlineArrow"> It Works</span></h1>
+      <div className="how-work-section">
         <div class="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <div className="numberContainer">
             <p>01</p>

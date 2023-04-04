@@ -1,3 +1,33 @@
-.servicesContainer{
-    padding: 5% 15% ;
+.servicesContainer {
+  padding: 5% 15%;
+}
+.serviceTitle {
+  color: #001e3e;
+  font-family: Barlow;
+}
+.card-title {
+  color: #001e3e;
+  font-family: Barlow;
+}
+.card-body > p {
+  color: #2d2d2d;
+}
+.serviceSubTitile {
+  font-family: Barlow;
+  font-style: Regular;
+  font-size: 18px;
+  color: #001E3E;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .servicesContainer {
+    padding: 5% 5% !important;
+  }
+  .serviceTitle {
+    font-size: xx-large;
+  }
+  .card-body > p {
+    font-size: medium;
+  }
 }

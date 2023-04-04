@@ -10,6 +10,7 @@
   line-height: 50px;
   text-align: center;
   color: #001E3E;
+  Font-family: Barlow;
 }
 .serviceDescription {
   font-weight: 400;
@@ -17,7 +18,7 @@
   line-height: 24px;
   margin-top: 1rem;
   text-align: center;
+  Font-family: Barlow;
+  color:#001E3E;
 
-
-  color: #001e3e;
 }

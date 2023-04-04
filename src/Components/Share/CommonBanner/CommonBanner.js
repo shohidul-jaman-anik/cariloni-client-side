@@ -18,10 +18,7 @@ const CommonBanner = () => {
             <span className="highliteText">DONE!</span> ”
           </h1>
 
-          <ShareButton>
-            <img src={callVector} alt="call vector" className="mr-3"></img> Call
-            Now 250-493-9111
-          </ShareButton>
+          <ShareButton>Call Now 250-493-9111</ShareButton>
         </div>
       )}
       {pathname.includes("/blogs") && (
@@ -34,6 +31,19 @@ const CommonBanner = () => {
           Tips for Home <span className="highliteText">BUYERS</span>
           </h1>
 
+        </div>
+      )}
+      {pathname.includes("/contact") && (
+        <div className="contactBannerComponent">
+          <h3 className="text-white text-3xl">ABOUT US</h3>
+          <h1 className="text-white text-6xl my-8 font-semibold">
+          Mortgage <span className="highliteText">NEWS </span>and Helpful
+          </h1>
+          <h1 className="text-white text-6xl my-8 font-semibold">
+          Tips for Home <span className="highliteText">BUYERS</span>
+          </h1>
+
+          <ShareButton>Call Now 250-493-9111</ShareButton>
         </div>
       )}
 

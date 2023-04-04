@@ -1,0 +1,8 @@
+.serviceDetailsComponent{
+    padding: 6% 15% ;
+    background-image: url("../../../Asset/services/Bg.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: contain; */
+}
+

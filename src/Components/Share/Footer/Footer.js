@@ -16,7 +16,7 @@ const Footer = () => {
       <footer className="footerContainer footer p-10 bg-neutral text-neutral-content">
         <div>
           <img src={logo} alt="logo"></img>
-          <p className="my-5">
+          <p className="my-5 text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
             <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
             <br /> Ut enim ad minim veniam
@@ -31,40 +31,41 @@ const Footer = () => {
 
         </div>
         <div>
-          <span className="footer-title">Services</span>
-          <Link to="/" className="link link-hover">
+          {/* <span className="footer-title">Services</span> */}
+          <span className="text-2xl">Services</span>
+          <Link to="/" className="link link-hover text-gray-400">
             Branding
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Design
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Marketing
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Advertisement
           </Link>
         </div>
         <div>
-          <span className="footer-title text-white">Help & Supports</span>
-          <Link to="/" className="link link-hover">
+          <span className="text-2xl">Help & Supports</span>
+          <Link to="/" className="link link-hover text-gray-400">
             Help
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Term & Conditon
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Privacy Policy
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Contact
           </Link>
-          <Link to="/" className="link link-hover">
+          <Link to="/" className="link link-hover text-gray-400">
             Apply
           </Link>
         </div>
       </footer>
-      <div className="bg-slate-950 flex justify-around items-center py-3">
+      <div className="bg-slate-950 flex justify-around items-center py-10">
         <p className="text-white ">© Copyright  2022 | All Rights Reserved | by <span className="text-amber-300">carlonimortgages.com</span></p>
         <img src={companyLogo} alt="company logo"></img>
       </div>

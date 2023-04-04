@@ -8,6 +8,8 @@ import SignUp from "../Authentication/SignUp/SignUp";
 import Blogs from "../Blogs/Blogs";
 import Report from "../Report/Report";
 import Testimonials from "../Testimonials/Testimonials";
+import Contact from "../Contact/Contact";
+import ServicesDetails from "../Services/ServicesDetails/ServicesDetails";
 
 
 
@@ -25,6 +27,11 @@ const routes = createBrowserRouter([
             { path: "/report", element: <Report></Report> },
             { path: "/blogs", element: <Blogs></Blogs> },
             { path: "/signUp", element: <SignUp></SignUp> },
+            { path: "/contact", element: <Contact></Contact> },
+            // { path: "/services/:id",loader={({ params }) => 
+            //     fetch("Services.json");
+            //   }, element: <ServicesDetails></ServicesDetails> },
+             
             // { path: "/products", element: <Products></Products> },
 
         ]

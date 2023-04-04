@@ -10,16 +10,44 @@
   font-weight: 700;
   font-size: 62px;
   line-height: 82px;
+  height: 52rem;
 }
 
 .highliteText {
   color: #f5f05e;
+  font-family: 'Barlow', sans-serif;
 }
 
 .bannerImg {
   width: 687px;
   height: 662px;
-  left: 966px;
+  /* left: 966px; */
   /* top: 261px; */
-  margin-bottom: 10%;
+  /* margin-bottom: %; */
+  margin-top: 11.3%;
+}
+/* .servicesBannerImg{
+  width: 42.8rem;
+  height: 41.3rem;
+} */
+
+@media only screen and (max-width: 600px) {
+  .bannerContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10% 5% ;
+    height: 36rem;
+    width: 100%;
+  }
+  .bannerContent div {
+    font-size: x-large;
+    line-height: 15px;
+    
+  }
+  .bannerImg{
+    width: 15rem;
+    height: 20rem;
+    margin-top: 2rem;
+    float: right !important;
+  }
 }

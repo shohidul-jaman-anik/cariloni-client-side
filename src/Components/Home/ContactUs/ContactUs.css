@@ -1,8 +1,8 @@
 .contactContainer {
-    padding: 5% 15% ;
+  padding: 5% 15%;
 }
-.contactInfo{
-    margin-right: 8%;
+.contactInfo {
+  margin-right: 8%;
 }
 .contactInfo > p {
   font-weight: 400;
@@ -10,12 +10,66 @@
   line-height: 34px;
   text-align: right;
   color: #001e3e;
-  
+  margin-top: 1rem;
+  /* font-family: 'Barlow', sans-serif; */
 }
-
+.googlemap {
+  height: 29.2rem;
+  width: 45.5rem;
+}
 .contactInfo > h1 {
   text-align: end;
   font-weight: 700;
   font-size: 42px;
   line-height: 50px;
+  font-family: Barlow;
+}
+.contactUnderline {
+  background-image: url("../../../Asset/Page1/Rectangle72.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 55%;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactContainer {
+    padding: 5% 5%;
+    flex-direction: column;
+  }
+  .googlemap {
+    height: 29.2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contactInfo > h1 {
+    text-align: end;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: 17%;
+  }
+  .contactInfo > p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 1rem;
+  }
+}
+
+/*--------------------------------------
+        Responsive For Tablet 
+--------------------------------------*/
+
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .contactContainer {
+    padding: 5% 5%;
+    display: flex;
+  }
+  .contactInfo {
+    width: 50%;
+  }
+  .googlemap {
+    height: 29.2rem;
+    width: 50%;
+  }
 }

@@ -4,8 +4,7 @@ import ShareButton from "../../Share/ShareButton/ShareButton";
 import BannerImg from "../../../Asset/Page1/Banner.png";
 import { useLocation } from "react-router-dom";
 import servicesBanner from "../../../Asset/Page2/servicesBanner.png";
-import callVector from "../../../Asset/Page1/callVector.png"
-
+// import callVector from "../../../Asset/Page1/callVector.png";
 
 const Banner = () => {
   const { pathname } = useLocation();
@@ -15,8 +14,8 @@ const Banner = () => {
         <div className="bannerContainer  bg-base-100 shadow-xl rounded-none grid sm:grid-cols-1">
           <div className="flex items-center">
             <div>
-              <h2 className=" text-white text-5xl leading-">
-                <div className="my-5">
+              <h2 className="bannerContent text-white text-5xl leading-">
+                <div className="mb-5">
                   {" "}
                   A <span className="highliteText"> FREE </span>No Obligation{" "}
                 </div>
@@ -25,9 +24,7 @@ const Banner = () => {
                 </div>
                 <div className="my-5"> Thousands!</div>
               </h2>
-              <div>
-                <ShareButton><img src={callVector} alt="call vector" className="mr-3"></img> Call Now 250-493-9111</ShareButton>
-              </div>
+              <ShareButton>Call Now 250-493-9111</ShareButton>
             </div>
           </div>
 
@@ -56,22 +53,23 @@ const Banner = () => {
                 for people who have exhausted every effort to get out of debt
                 and get their finances back on track. So what does a mortgage
                 broker do? We serve our community – which includes YOU.
-               
               </p>
               <p className="text-sm text-white font-normal my-5">
-                  If you’re looking for mortgage services in Penticton or
-                  anywhere in the Southern Interior of British Columbia you
-                  needn’t look any further. Carloni Mortgages is a full-service
-                  one-stop shop brokerage, specializing in the services detailed
-                  below.
-                </p>
-              <div>
-                <ShareButton><img src={callVector} alt="call vector" className="mr-3"></img> Call Now 250-493-9111</ShareButton>
-              </div>
+                If you’re looking for mortgage services in Penticton or anywhere
+                in the Southern Interior of British Columbia you needn’t look
+                any further. Carloni Mortgages is a full-service one-stop shop
+                brokerage, specializing in the services detailed below.
+              </p>
+
+              <ShareButton>Call Now 250-493-9111</ShareButton>
             </div>
           </div>
 
-          <img className="bannerImg" src={servicesBanner} alt="Services Banner" />
+          <img
+            className="servicesBannerImg"
+            src={servicesBanner}
+            alt="Services Banner"
+          />
         </div>
       )}
     </div>

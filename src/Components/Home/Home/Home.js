@@ -6,7 +6,7 @@ import Services from "../Services/Services";
 import WhyWorkUS from '../WhyWorkUs/WhyWorkUS';
 import DealExamples from '../DealExamples/DealExamples';
 import ContactUs from '../ContactUs/ContactUs';
-import Testimonial from '../Testimonial/Testimonial';
+// import Testimonial from '../Testimonial/Testimonial';
 
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
             <WhyWorkUS></WhyWorkUS>
             <HowItWorks></HowItWorks>
             <DealExamples></DealExamples>
-            <Testimonial></Testimonial>
+            {/* <Testimonial></Testimonial> */}
             <ContactUs></ContactUs>
         </div>
     );

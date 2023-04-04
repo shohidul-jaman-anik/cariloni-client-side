@@ -1,10 +1,20 @@
 .how-work-container{
-    background-image: url("../../../Asset/Page1/Rectangle22.png");
+    background-image: url("../../../Asset/Page1/Rectangle22.png"),url("../../../Asset/Page1/Rectangle36.png");
     background-repeat: no-repeat;
+    /* background-position: top; */
     padding: 7% 15% ;
     background-size: cover;
 }
-
+.how-work-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 5px;
+}
+.underlineArrow{
+    background-image: url("../../../Asset/Page1/Rectangle72.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 .numberContainer {
   height: 2rem;
@@ -31,3 +41,32 @@
 .how-work:hover {
     background-color: #195ca5;
 }
+
+@media only screen and (max-width: 600px) {
+    .how-work-container{
+        padding: 5% 5% ;
+        background-size: cover;
+    }
+    .how-work-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 5px;
+    }
+}
+
+
+/*--------------------------------------
+          Responsive For Tablet 
+ --------------------------------------*/
+
+ @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+    .how-work-container{
+        padding: 5% 5% ;
+        background-size: cover;
+    }
+    .how-work-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 5px;
+    }
+ }

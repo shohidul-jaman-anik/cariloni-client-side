@@ -14,11 +14,11 @@ const BlogList = () => {
     <div className="servicesContainer">
       <div class="servicesList p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {blogs.map((blog) => (
-          <div class="rounded overflow-hidden shadow-lg">
+          <div class="rounded overflow-hidden shadow-lg" key={blog._id}>
             <img class="w-full" src={blog.img} alt="Mountain" />
-
+             {/* {console.log(blog?.date ,"dateeeeeeee")} */}
             <div class="px-6 py-6">
-              <p className="text-gray-700">{blog?.date}</p>
+              {/* <p className="text-gray-700">{blog?.date}</p> */}
               <div class="font-bold text-gray-700 text-xl mb-2">
                 {blog.name}
               </div>
@@ -28,7 +28,7 @@ const BlogList = () => {
         ))}
       </div>
 
-      <div class="flex flex-col lg:flex-row justify-center">
+      <div class="flex flex-col lg:flex-row justify-center mt-12">
         <nav
           aria-label="Pagination"
           class="flex justify-center items-center text-gray-600 mt-8 lg:mt-0"

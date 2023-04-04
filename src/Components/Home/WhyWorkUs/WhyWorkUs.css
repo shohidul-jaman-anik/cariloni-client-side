@@ -2,5 +2,20 @@
     padding: 5% 15% ;
     background-image: url("../../../Asset/Page1/VectorBg.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
+@media only screen and (max-width: 600px) {
+    .workUsContainer{
+        padding: 5% 5% ;
+        background-size: 110rem;
+        background-attachment: fixed;
+    }
+    .card-body >h2{
+        font-size: xx-large;
+    }
+
+    .card-body >p{
+        font-size: large;
+    }
+}
+
