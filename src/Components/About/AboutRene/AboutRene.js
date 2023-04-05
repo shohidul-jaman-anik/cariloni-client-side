@@ -36,7 +36,7 @@ const AboutRene = () => {
             their needs with confidence, while keeping more money in their
             pocket.
           </p>
-          <p className="mt-5">
+          {/* <p className="mt-5">
             Rene was born in Denmark and lives in Penticton, BC with his two
             young boys, Ace 9 & Fox 6, who can sometimes be found at the office
             helping Dad. His family values translate to home purchases,
@@ -47,7 +47,7 @@ const AboutRene = () => {
             Having cumulatively funded over 250,000 loans in his career through
             various companies Rene Carloni is the most experienced broker in the
             Southern Interior of BC, and quite possibly the entire country.
-          </p>
+          </p> */}
          
         </div>
       </div>

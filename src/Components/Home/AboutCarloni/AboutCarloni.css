@@ -1,4 +1,5 @@
 .carloniContainer {
+  /* padding: 5% 15%; */
   /* background-color:  #132F50F2;; */
   /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
   background-image: url("../../../Asset/Page1/Rectangle13.png"),url("../../../Asset/Page1/Vector13.png");
@@ -8,7 +9,7 @@
 
 
 .carloni-section {
-  padding: 0% 15% 0% 15% ;
+  /* padding: 0% 15% 0% 15% ; */
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -38,7 +39,7 @@
 @media only screen and (max-width: 600px) {
 
   .carloni-section{
-    padding: 5% 5%;
+    padding: 5% 5% 0% 5%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
@@ -77,7 +78,7 @@
   .aboutCarloni{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 1rem;
+    column-gap: 2rem;
   }
   .carloniDetails{
       margin-left: 1rem;
@@ -87,5 +88,37 @@
   }
   .carloni-section >div >img{
     width: 100%;
+  }
+  .carloniContent >h1{
+    font-size: large;
+    margin-top: 15%;
+  }
+  .carloniContent >p{
+    font-size: small;
+  }
+  .boxArrow{
+    bottom: -15%;
+    right: -11%;
+    background-color: #F5F05E;
+    height: 80px;
+    width: 80px;
+  }
+}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .boxArrow{
+    bottom: -12%;
+    right: -0%;
+    background-color: #F5F05E;
+    height: 80px;
+    width: 80px;
+  }
+  .carloniContent >h1{
+    margin-top: 27%;
+    font-size: x-large;
+  }
+  .carloniContent >p{
+    font-size: small;
   }
 }

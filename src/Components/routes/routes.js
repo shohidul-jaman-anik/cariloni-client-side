@@ -10,6 +10,7 @@ import Report from "../Report/Report";
 import Testimonials from "../Testimonials/Testimonials";
 import Contact from "../Contact/Contact";
 import ServicesDetails from "../Services/ServicesDetails/ServicesDetails";
+import MainTestimonials from "../Testimonials/MainTestimonials";
 
 
 
@@ -23,7 +24,7 @@ const routes = createBrowserRouter([
             { path: "/services", element: <Services></Services> },
             { path: "/about", element: <About></About> },
             { path: "/blogs", element: <Blogs></Blogs> },
-            { path: "/testimonials", element: <Testimonials></Testimonials> },
+            { path: "/testimonials", element: <MainTestimonials></MainTestimonials> },
             { path: "/report", element: <Report></Report> },
             { path: "/blogs", element: <Blogs></Blogs> },
             { path: "/signUp", element: <SignUp></SignUp> },

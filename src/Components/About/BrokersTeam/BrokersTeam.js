@@ -1,15 +1,16 @@
 import React from "react";
 import image from "../../../Asset/AboutPage/team.png";
+import "./BrokersTeam.css"
+
 
 const BrokersTeam = () => {
   return (
-    <div className="dealContainer gap-x-10">
-      <div className="flex-1 carloniContent">
+    <div className="teamContainer gap-x-10">
+      <div className="teamDetails">
         <h1 className="font-bold text-4xl">
-          About The<span className="underlineArrow ">Carloni Mortgage</span>
-          <p className="mt-2">Brokers Team</p>
+          About The<span className="underlineArrow ">Carloni Mortgage</span>Brokers Team
         </h1>
-        <p className="mt-5 font-bold text-xl ">Amanda Quigley – Assistant</p>
+        <h3 className="mt-5 font-bold text-xl ">Amanda Quigley – Assistant</h3>
         <p className="mt-5">
           Amanda was born and raised in the Okanagan and has over five years’
           experience in financial office management. Amanda attained a Diploma
@@ -24,8 +25,8 @@ const BrokersTeam = () => {
           up a mountain, enjoying all that the Okanagan has to offer!
         </p>
       </div>
-      <div className="ExampleImage">
-        <img src={image} alt="Example side img"></img>
+      <div className="">
+        <img src={image} className="teamImage" alt="Example side img"></img>
       </div>
     </div>
   );

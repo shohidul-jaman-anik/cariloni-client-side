@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import ShareButton from "../Share/ShareButton/ShareButton";
 import mgs from "../../Asset/tesimonial/mgs.png";
 import "./Testimonials.css";
 
@@ -13,9 +12,10 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="testimonialContainer grid grid-cols-3 gap-5">
+  <div className="reviewContainer">
+      <div className="reviewSection">
       {reviews.map((review) => (
-        <div className="border p-10 ">
+        <div className="border p-3">
           <img src={mgs} alt="reviews name" className=" h-16 w-16 " />
           <p>{review.review}</p>
           <h2 className="mt-7 font-bold text-gray-800">{review.name}</h2>
@@ -27,6 +27,7 @@ const Testimonials = () => {
         <button className="btn bg-sky-900 mx-auto text-center">Load More</button>
       </div>
     </div>
+  </div>
   );
 };
 

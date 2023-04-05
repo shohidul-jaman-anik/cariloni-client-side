@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
+  column-gap: 2rem;
 }
 
 .carloniBtn {
@@ -22,20 +23,18 @@
 @media only screen and (max-width: 600px) {
  
   .reni-section {
-    padding: 5% 15%;
+    padding: 5% 5%;
   }
-
   .reni-section{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    align-items: center;
-   
+  
   }
-  .reneCarloniContent {
+  .reneCarloniContent p{
     font-size: small;
   }
-  .reneCarloniContent > {
-    font-size: large;
+  .reneCarloniContent > h1{
+    font-size: larger;
   }
   .reni-section {
     flex-direction: column;

@@ -1,10 +1,11 @@
 .bannerContainer {
   /* background-color: #133e6d; */
-  background-image: linear-gradient(115.66deg, #18314B 9.36%, #14283E 49.81%);
-  padding: 5% 15% ;
+  background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
+  padding: 5% 15%;
   padding-bottom: 2%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   /* font-family: "Barlow"; */
   /* font-style: normal; */
   font-weight: 700;
@@ -15,7 +16,7 @@
 
 .highliteText {
   color: #f5f05e;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .bannerImg {
@@ -32,10 +33,10 @@
 } */
 
 @media only screen and (max-width: 600px) {
-  .bannerContainer{
+  .bannerContainer {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    padding: 10% 5% ;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10% 5%;
     height: 36rem;
     width: 100%;
   }
@@ -43,34 +44,43 @@
     font-size: x-large;
     line-height: 15px;
   }
-  .bannerImg{
+  .bannerImg {
     width: 15rem;
     height: 20rem;
     margin-top: 2rem;
     float: right !important;
   }
 
-  .serviceContent >h2{
+  .serviceContent > h2 {
     font-size: x-large;
   }
-  .serviceContent >h3{
+  .serviceContent > h3 {
     font-size: medium;
   }
 }
 
 @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
-  .serviceBannerContainer{
+  .serviceBannerContainer {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 10% 5% ;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10% 5%;
     align-items: center;
     /* height: 36rem;
     width: 100%; */
   }
-  .serviceContent >h2{
+  .serviceContent > h2 {
     font-size: xx-large;
   }
-  .serviceContent >h3{
+  .serviceContent > h3 {
     font-size: large;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .bannerContainer {
+    height: 48rem;
+  }
+  .bannerImg {
+    width: fit-content;
   }
 }

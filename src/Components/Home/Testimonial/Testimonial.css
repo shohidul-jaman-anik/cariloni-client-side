@@ -25,14 +25,36 @@
     font-size: small;
   }
   .testimonialContainer {
-    margin-bottom: 35%;
+    margin-bottom: 45%;
   }
   .quotaionImg{
-    height: 3rem;
+    height: 2rem;
+    margin: 0%;
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
   .testimonialContainer {
     margin-bottom: 25%;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .contentTestimonial > div > h1 {
+    font-size: x-large;
+    
+  }
+  .contentTestimonial > div > p {
+    font-size: small;
+  }
+  .contentTestimonial > div > h3 {
+    font-size: small;
+  }
+  .quotaionImg{
+    height: 2rem;
+    margin: 0%;
+    margin-bottom: 1rem;
   }
 }
