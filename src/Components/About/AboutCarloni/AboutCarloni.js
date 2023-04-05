@@ -1,11 +1,11 @@
 import React from "react";
-import image from "../../../Asset/AboutPage/carloni.png";
+import image from "../../../Asset/AboutPage/Group 41685.png";
 import "./AboutCarloni.css"
 
 
 const AboutCarloni = () => {
   return (
-    <div className="dealContainer gap-x-10">
+    <div className="aboutCarloni gap-x-10">
       <div className=" carloniDetails">
         <h1 className="font-bold text-4xl">
           About <span className="underlineArrow ">Carloni Mortgage</span>
@@ -24,7 +24,7 @@ const AboutCarloni = () => {
         <p className="mt-5 ">-You've Come To The Right Place.</p>
       </div>
       <div className="ExampleImage">
-        <img src={image} alt="Example side img" className="mt-[50px] ml-[-50px]"></img>
+        <img src={image} alt="Example side img" ></img>
       </div>
     </div>
   );

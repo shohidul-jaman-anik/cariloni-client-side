@@ -65,7 +65,7 @@ const Services = () => {
           companies and many others to find the mortgage that is best for YOU.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="servicesSection">
         {services.map((service) => (
           <div className="card bg-base-100 shadow-xl">
             <div className="pt-10 ps-10">

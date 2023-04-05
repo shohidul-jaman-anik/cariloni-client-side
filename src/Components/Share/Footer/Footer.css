@@ -3,3 +3,40 @@
     background-size: cover;
     padding: 5% 15% ;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .downFooter{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .downFooter >p{
+        padding: 0% 15%;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*--------------------------------------
+          Responsive For Tablet 
+ --------------------------------------*/
+
+ @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+    .how-work-container{
+        padding: 5% 5% ;
+        background-size: cover;
+    }
+    .how-work-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 5px;
+    }
+    .downFooter{
+        flex-direction: column;
+        
+    }
+    .downFooter >p{
+        padding: 0% 15%;
+        margin-bottom: 1rem;
+    }
+ }

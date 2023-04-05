@@ -65,7 +65,7 @@ const Footer = () => {
           </Link>
         </div>
       </footer>
-      <div className="bg-slate-950 flex justify-around items-center py-10">
+      <div className="downFooter bg-slate-950 flex justify-around items-center py-10">
         <p className="text-white ">© Copyright  2022 | All Rights Reserved | by <span className="text-amber-300">carlonimortgages.com</span></p>
         <img src={companyLogo} alt="company logo"></img>
       </div>

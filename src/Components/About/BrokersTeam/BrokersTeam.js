@@ -25,7 +25,7 @@ const BrokersTeam = () => {
         </p>
       </div>
       <div className="ExampleImage">
-        <img src={image} alt="Example side img" className="mt-[70px]"></img>
+        <img src={image} alt="Example side img"></img>
       </div>
     </div>
   );

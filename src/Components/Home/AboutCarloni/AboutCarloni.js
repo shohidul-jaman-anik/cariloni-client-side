@@ -8,12 +8,12 @@ import arrow from "../../../Asset/Page1/Arrow 1.png"
 
 const AboutCarloni = () => {
   return (
-    <div className="flex items-start carloniContainer ">
+    <div className="carloniContainer ">
       <div className="carloni-section">
-        <div className="flex-1 hidden lg:block lg:mr-20">
+        <div className=" lg:mr-20">
           <img className="mt-[-55px]" src={carloni} alt="" />
         </div>
-        <div className="flex-1 text-white carloniContent">
+        <div className=" text-white carloniContent">
           <h1 className="font-bold text-4xl">
             About <span className="underlineArrow">Carloni Mortgage</span>
           </h1>

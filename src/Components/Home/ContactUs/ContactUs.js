@@ -6,7 +6,7 @@ import location from "../../../Asset/Page1/location.png";
 
 const ContactUs = () => {
   return (
-    <div className="contactContainer flex justify-evenly items-center">
+    <div className="contactContainer">
       <div className="contactInfo ">
         <h1 className="contactUnderline ">Contact Us</h1>
         <p>

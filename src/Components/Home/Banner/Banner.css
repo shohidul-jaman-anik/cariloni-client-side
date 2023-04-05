@@ -42,12 +42,35 @@
   .bannerContent div {
     font-size: x-large;
     line-height: 15px;
-    
   }
   .bannerImg{
     width: 15rem;
     height: 20rem;
     margin-top: 2rem;
     float: right !important;
+  }
+
+  .serviceContent >h2{
+    font-size: x-large;
+  }
+  .serviceContent >h3{
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .serviceBannerContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10% 5% ;
+    align-items: center;
+    /* height: 36rem;
+    width: 100%; */
+  }
+  .serviceContent >h2{
+    font-size: xx-large;
+  }
+  .serviceContent >h3{
+    font-size: large;
   }
 }

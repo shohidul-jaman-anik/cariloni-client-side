@@ -23,14 +23,10 @@ const CommonBanner = () => {
       )}
       {pathname.includes("/blogs") && (
         <div className="commonBannerComponent">
-          <h3 className="text-white text-3xl">ABOUT US</h3>
           <h1 className="text-white text-6xl my-8 font-semibold">
           Mortgage <span className="highliteText">NEWS </span>and Helpful
+          Tips for Home   <span className="highliteText">BUYERS</span>
           </h1>
-          <h1 className="text-white text-6xl my-8 font-semibold">
-          Tips for Home <span className="highliteText">BUYERS</span>
-          </h1>
-
         </div>
       )}
       {pathname.includes("/contact") && (

@@ -1,5 +1,10 @@
 .contactContainer {
   padding: 5% 15%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 2rem;
+  align-items: center;
+  margin-top: 15%;
 }
 .contactInfo {
   margin-right: 8%;
@@ -15,7 +20,7 @@
 }
 .googlemap {
   height: 29.2rem;
-  width: 45.5rem;
+  /* width: 45.5rem; */
 }
 .contactInfo > h1 {
   text-align: end;
@@ -34,7 +39,10 @@
 @media only screen and (max-width: 600px) {
   .contactContainer {
     padding: 5% 5%;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 1.5rem;
+    /* align-items: center; */
   }
   .googlemap {
     height: 29.2rem;
@@ -70,6 +78,15 @@
   }
   .googlemap {
     height: 29.2rem;
-    width: 50%;
+    width: 100%;
   }
+}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  /* .googlemap {
+    height: 29.2rem;
+    width: 50%;
+    margin: 0 auto;
+  } */
 }

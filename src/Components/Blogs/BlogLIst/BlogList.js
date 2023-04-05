@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "./BlogList.css"
+
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);

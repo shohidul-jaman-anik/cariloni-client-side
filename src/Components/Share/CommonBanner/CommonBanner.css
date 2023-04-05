@@ -13,3 +13,33 @@
     /* background-size: contain; */
 }
 
+@media only screen and (max-width: 600px) {
+    .commonBannerComponent>h1{
+        font-size: x-large;
+        line-height: 35px;
+        margin-top: 5px;
+        
+    }
+    .commonBannerComponent>h3{
+        font-size: small;
+        line-height: 35px;
+    }
+  
+  }
+
+  /*--------------------------------------
+        Responsive For Tablet 
+--------------------------------------*/
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
+    .commonBannerComponent>h1{
+        font-size: xx-large;
+        line-height: 35px;
+        margin-top: 5px;
+        
+    }
+    .commonBannerComponent>h3{
+        font-size: medium;
+        line-height: 35px;
+    }
+  }

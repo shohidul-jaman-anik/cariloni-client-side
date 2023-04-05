@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../../Asset/Page1/Rectangle65.png";
+import image1 from "../../../Asset/Page1/Group 41684.png";
 import "./DealExamples.css";
 
 const DealExamples = () => {
@@ -48,7 +49,7 @@ const DealExamples = () => {
           </div>
         </div>
         <div className="ExampleImage">
-          <img src={image} alt="Example side img" className="mt-[83px] ml-[-83px]"></img>
+          <img src={image1} alt="Example side img" ></img>
         </div>
       </div>
     </div>

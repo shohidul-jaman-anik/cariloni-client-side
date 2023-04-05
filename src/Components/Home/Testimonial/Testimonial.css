@@ -1,6 +1,38 @@
-.testimonialContainer{
-    padding: 5% 15% ;
-    background-image: url("../../../Asset/Page1/Rectangle\ 69.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.testimonialContainer {
+  padding: 5% 15%;
+  background-image: url("../../../Asset/Page1/Rectangle\ 69.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.contentTestimonial {
+  background-color: #133e6d;
+}
+.contentTestimonial > div > h1 {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 58px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentTestimonial > div > h1 {
+    font-size: large;
+  }
+  .contentTestimonial > div > p {
+    font-size: small;
+  }
+  .contentTestimonial > div > h3 {
+    font-size: small;
+  }
+  .testimonialContainer {
+    margin-bottom: 35%;
+  }
+  .quotaionImg{
+    height: 3rem;
+  }
+}
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .testimonialContainer {
+    margin-bottom: 25%;
+  }
 }

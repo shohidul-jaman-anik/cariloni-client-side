@@ -3,11 +3,12 @@
   justify-content: space-evenly;
   align-items: center;
   /* grid-template-columns: repeat(2, 1fr); */
-  padding: 5% 15%;
+  padding: 5% 12%;
 }
 .dealExampleSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
   width: 30%;
   row-gap: 7.3rem;
   column-gap: 3.8rem;
@@ -26,20 +27,12 @@
   text-align: center;
   margin-top: 4rem;
 }
-.ExampleImage {
-  background-image: url("../../../Asset/Page1/Rectangle\ 66.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-position-y: top;
-  width: 622px;
-  height: 706px;
-}
-
 
 @media only screen and (max-width: 600px) {
   .dealExampleSection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
     width: 100%;
     row-gap: 2.3rem;
     margin-top: 2rem;
@@ -47,21 +40,11 @@
   .dealContainer {
     flex-direction: column;
     padding: 5% 5%;
-   
   }
   .ExampleImage {
-    background-image: url("../../../Asset/Page1/Rectangle\ 66.png");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-position-y: top;
-    background-size: 80%;
-    width: 420px;
-    height: 506px;
-    padding: 2rem;
     margin-top: 10%;
   }
 }
-
 
 /*--------------------------------------
         Responsive For Tablet 
@@ -73,10 +56,32 @@
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     row-gap: 2.3rem;
+    margin-left: 1rem;
   }
   .dealContainer {
     flex-direction: column;
     padding: 5% 5%;
-   
+  }
+  .ExampleImage {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .ExampleImage {
+    width: 50%;
+  }
+  .ExampleDetails h1 {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: .5rem;
+  }
+  .dealExampleSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    width: 50%;
+    row-gap: 7.3rem;
+    column-gap: 3.8rem;
   }
 }

@@ -22,3 +22,23 @@
   color:#001E3E;
 
 }
+
+@media only screen and (max-width: 600px) {
+  .servicesContainer {
+      padding: 5% 5% !important;
+    }
+    .servicesList{
+      padding: 0%;
+    }
+}
+
+
+/*--------------------------------------
+        Responsive For Tablet 
+--------------------------------------*/
+
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .servicesList{
+    padding: 0%;
+  }
+}

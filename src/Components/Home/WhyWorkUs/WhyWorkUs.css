@@ -1,21 +1,42 @@
-.workUsContainer{
-    padding: 5% 15% ;
-    background-image: url("../../../Asset/Page1/VectorBg.png");
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+.work-us-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.workUsContainer {
+  padding: 5% 15%;
+  background-image: url("../../../Asset/Page1/VectorBg.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
 @media only screen and (max-width: 600px) {
-    .workUsContainer{
-        padding: 5% 5% ;
-        background-size: 110rem;
-        background-attachment: fixed;
-    }
-    .card-body >h2{
-        font-size: xx-large;
-    }
+  .workUsContainer {
+    padding: 5% 5%;
+    background-size: 110rem;
+    background-attachment: fixed;
+  }
+  .work-us-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .card-body > h2 {
+    font-size: xx-large;
+  }
 
-    .card-body >p{
-        font-size: large;
-    }
+  .card-body > p {
+    font-size: large;
+  }
 }
 
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .workUsContainer {
+    padding: 5% 5%;
+    background-size: 160rem;
+  }
+  .work-us-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
