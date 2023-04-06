@@ -8,6 +8,13 @@
   /* flex-direction: column; */
  
 }
+.firstColumn{
+  flex-direction: column;
+  
+}
+.firstColumn > div{
+  margin-bottom: 1.5rem;
+}
 .tesitmonialBtn{
   display: flex;
   justify-content: center;
