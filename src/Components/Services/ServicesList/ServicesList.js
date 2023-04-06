@@ -15,7 +15,7 @@ const ServicesList = () => {
 
   const handleServiceDetails = (id) => {
     console.log(id, "iddddddddddddd");
-    navigate(`/service/${id}`)
+    navigate(`/serviceDetails/${id}`)
   };
 
   return (
@@ -40,7 +40,7 @@ const ServicesList = () => {
             ></img>
             <div class="px-6 py-6">
               <div class=" mb-2 card-title">{service.name}</div>
-              <p class=" text-base">{service.description}</p>
+              <p class=" text-base">{service.description.substring(0, 150)}</p>
             </div>
           </div>
         ))}

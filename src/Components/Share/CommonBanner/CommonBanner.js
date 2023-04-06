@@ -44,7 +44,7 @@ const CommonBanner = () => {
       {pathname.includes("/testimonials") && (
         <div className="commonBannerComponent">
           <h1 className="text-white text-6xl my-8 font-semibold">
-            <span className="highliteText">Happy</span>   customers say<span className="highliteText">about </span>us
+            <span className="highliteText">Happy</span> Customers <br/>Say<span className="highliteText"> ABOUT </span>Us
           </h1>
         </div>
       )}
@@ -52,6 +52,13 @@ const CommonBanner = () => {
         <div className="commonBannerComponent">
           <h1 className="text-white text-6xl my-8 font-semibold">
            A <span className="highliteText">FREE</span> No Obligation Call Should<span className="highliteText">SAVE</span>YOU Thousands!
+          </h1>
+        </div>
+      )}
+      {pathname.includes("/serviceDetails") && (
+        <div className="commonBannerComponent">
+          <h1 className="text-white text-6xl my-8 font-semibold">
+           Mortgage for Buying a <br/><span className="highliteText">House</span> or Condo
           </h1>
         </div>
       )}

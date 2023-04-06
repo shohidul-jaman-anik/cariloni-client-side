@@ -1,0 +1,56 @@
+.blogBanner {
+  background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
+  position: relative;
+  width: 100%;
+  height: 711px;
+}
+.blogBannerImg {
+  width: 70%;
+  height: 80%;
+  /* width: 497px;
+  height: 377px; */
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.blogDetailsSection {
+  padding: 5% 15%;
+  margin-top: 5%;
+}
+.blogDetailsSection h1 {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 66px;
+}
+.blogDetailsSection h3 {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.blogDetailsSection p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.blogDevider{
+    height: .1rem;
+    background-color: gray;
+    margin: 3% 0%;
+}
+
+@media only screen and (max-width: 600px) {
+    .blogBanner {
+        background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
+        position: relative;
+        width: 100%;
+        height: 411px;
+      }
+      .blogDetailsSection h1 {
+        margin-top: 22%;
+        font-size: 40px;
+        line-height: 40px;
+      }
+}

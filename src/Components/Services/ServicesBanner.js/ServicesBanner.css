@@ -1,17 +1,12 @@
-.bannerContainer {
-  /* background-color: #133e6d; */
+.serviceBannerContainer {
   background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
   padding: 5% 15%;
-  padding-bottom: 2%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  /* font-family: "Barlow"; */
-  /* font-style: normal; */
   font-weight: 700;
   font-size: 62px;
   line-height: 82px;
-  height: 52rem;
 }
 
 .highliteText {
@@ -19,27 +14,16 @@
   font-family: "Barlow", sans-serif;
 }
 
-.bannerImg {
-  width: 687px;
-  height: 662px;
-  /* left: 966px; */
-  /* top: 261px; */
-  /* margin-bottom: %; */
-  margin-top: 11.3%;
-}
-/* .servicesBannerImg{
-  width: 42.8rem;
-  height: 41.3rem;
-} */
 
 @media only screen and (max-width: 600px) {
-  .bannerContainer {
+  .serviceBannerContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center !important;
-    padding: 10% 5%;
-    height: 36rem;
+    padding: 5% 5%;
+    height: 69rem;
     width: 100%;
+    row-gap: 2rem;
   }
   .bannerContent div {
     font-size: x-large;
@@ -67,7 +51,7 @@
     padding: 5% 5% !important;
     align-items: center;
     /* height: 36rem;
-    width: 100%; */
+      width: 100%; */
   }
   .serviceContent > h2 {
     font-size: xx-large;

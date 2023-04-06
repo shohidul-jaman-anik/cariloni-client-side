@@ -24,6 +24,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.commonBannerComponent{
+  padding: 6% 15%;
+  background-image: url("../../../Asset/Details/Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media only screen and (max-width: 600px) {
   .commonBannerComponent > h1 {
     font-size: xx-large;

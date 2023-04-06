@@ -32,20 +32,19 @@ const Testimonial = () => {
       <div className="mx-auto w-full max-w-7xl bg-gray-50">
         <div className="relative mx-auto w-full h-full max-w-7xl flex shadow-xl mb-[-170px]">
           {/* :PICTURE CONTAINER */}
-          <div className="absolute md:relative w-full md:w-2/5 min-h-full rounded-r overflow-hidden bg-gray-700">
+          <div className="absolute md:relative w-full  min-h-full rounded-r overflow-hidden bg-gray-700">
             <img
               src={people[current].picture}
               alt=""
-              className="absolute top-0 left-0 w-full h-full object-cover filter grayscale brightness-125"
+              className="absolute top-0 left-0  h-full object-cover filter grayscale brightness-125"
             />
           </div>
 
           {/* :TESTIMONY CONTAINER */}
-          <div className="contentTestimonial z-10 relative py-10   w-full md:w-3/5 min-h-360px rounded md:rounded-r-none  bg-opacity-70 md:bg-opacity-100 text-white">
-            <div className="mx-auto max-w-md flex flex-col">
+          <div className="contentTestimonial z-10 relative py-10   w-full  min-h-360px rounded md:rounded-r-none  bg-opacity-70 md:bg-opacity-100 text-white">
+            <div className=" mx-10 max-w-md flex flex-col">
               <h1 className="text-white text-4xl font-bold ">
-                Happy <span className="underlineArrow"> customers </span> say
-                about us
+                Happy <span className="underlineArrow"> customers </span> say about us
               </h1>
 
               {/* ::Quote SVG */}

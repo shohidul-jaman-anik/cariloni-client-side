@@ -1,124 +1,125 @@
 .carloniContainer {
-  /* padding: 5% 15%; */
   /* background-color:  #132F50F2;; */
   /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
-  background-image: url("../../../Asset/Page1/Rectangle13.png"),url("../../../Asset/Page1/Vector13.png");
+  background-image: url("../../../Asset/Page1/Rectangle13.png"),
+    url("../../../Asset/Page1/Vector13.png");
   background-repeat: no-repeat;
-
 }
 
-
 .carloni-section {
-  /* padding: 0% 15% 0% 15% ; */
+  padding: 0% 15% 0% 15%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   /* background-image: url("../../../Asset/Page1/Rectangle\ 35.png"); */
 }
-.carloniBtn{
-    background-color: #F5F05E;
+.carloniBtn {
+  background-color: #f5f05e;
 }
-.carloniContent{
+.carloniContent {
   position: relative;
 }
-.boxArrow{
+.boxArrow {
   position: absolute;
   background-image: url("../../../Asset/Page1/Rectangle35.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   bottom: -65%;
-  right: -46%;
-  background-color: #F5F05E;
+  right: -42.9%;
+  background-color: #f5f05e;
   height: 80px;
   width: 80px;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-
-  .carloni-section{
+  .carloni-section {
     padding: 5% 5% 0% 5%;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  .carloni-section >div >img{
+  .carloni-section > div > img {
     margin-top: 15%;
   }
-  .carloniContent >h1{
+  .carloniContent > h1 {
     font-size: xx-large;
   }
-  .carloniContent >p{
+  .carloniContent > p {
     font-size: large;
   }
   .carloniContainer {
-    height: 1500px !important;
+    /* height: 2500px !important;
     width: 100%;
+   */
+    background-size: 185rem;
   }
-  .boxArrow{
+  .boxArrow {
     position: absolute;
     background-image: url("../../../Asset/Page1/Rectangle35.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    bottom: -15%;
-    right: -6%;
-    background-color: #F5F05E;
+    bottom: -11%;
+    right: -5%;
+    background-color: #f5f05e;
     height: 80px;
     width: 80px;
   }
 }
-
 
 /*--------------------------------------
         Responsive For Tablet 
 --------------------------------------*/
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
-  .aboutCarloni{
+  .aboutCarloni {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
-  .carloniDetails{
-      margin-left: 1rem;
+  .carloniDetails {
+    margin-left: 1rem;
   }
-  .carloni-section{
-    padding: 5% 5%;
+  .carloni-section {
+    padding: 0% 5%;
   }
-  .carloni-section >div >img{
+  .carloni-section > div > img {
     width: 100%;
   }
-  .carloniContent >h1{
+  .carloniContent > h1 {
     font-size: large;
     margin-top: 15%;
   }
-  .carloniContent >p{
+  .carloniContent > p {
     font-size: small;
   }
-  .boxArrow{
+  .boxArrow {
     bottom: -15%;
     right: -11%;
-    background-color: #F5F05E;
+    background-color: #f5f05e;
     height: 80px;
     width: 80px;
   }
 }
 
-
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
-  .boxArrow{
+  .boxArrow {
     bottom: -12%;
     right: -0%;
-    background-color: #F5F05E;
+    background-color: #f5f05e;
     height: 80px;
     width: 80px;
   }
-  .carloniContent >h1{
+  .carloniContent > h1 {
     margin-top: 27%;
     font-size: x-large;
   }
-  .carloniContent >p{
+  .carloniContent > p {
     font-size: small;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .boxArrow {
+    bottom: -11%;
+    right: -42.8%;
   }
 }

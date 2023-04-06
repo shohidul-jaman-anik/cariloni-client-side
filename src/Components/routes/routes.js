@@ -11,6 +11,7 @@ import Testimonials from "../Testimonials/Testimonials";
 import Contact from "../Contact/Contact";
 import ServicesDetails from "../Services/ServicesDetails/ServicesDetails";
 import MainTestimonials from "../Testimonials/MainTestimonials";
+import BlogDetails from "../Blogs/BlogDetails/BlogDetails";
 
 
 
@@ -22,16 +23,15 @@ const routes = createBrowserRouter([
             { path: "/", element: <Home></Home> },
             { path: "/home", element: <Home></Home> },
             { path: "/services", element: <Services></Services> },
+            { path: "/serviceDetails/:id",element: <ServicesDetails></ServicesDetails> },
             { path: "/about", element: <About></About> },
             { path: "/blogs", element: <Blogs></Blogs> },
+            { path: "/blogDetails/:id", element: <BlogDetails></BlogDetails> },
             { path: "/testimonials", element: <MainTestimonials></MainTestimonials> },
             { path: "/report", element: <Report></Report> },
             { path: "/blogs", element: <Blogs></Blogs> },
             { path: "/signUp", element: <SignUp></SignUp> },
             { path: "/contact", element: <Contact></Contact> },
-            // { path: "/services/:id",loader={({ params }) => 
-            //     fetch("Services.json");
-            //   }, element: <ServicesDetails></ServicesDetails> },
              
             // { path: "/products", element: <Products></Products> },
 

@@ -12,22 +12,24 @@ const Testimonials = () => {
   }, []);
 
   return (
-  <div className="reviewContainer">
-      <div className="reviewSection">
+    <div className="reviewContainer">
+    <div className="reviewSection">
       {reviews.map((review) => (
-        <div className="border p-3">
-          <img src={mgs} alt="reviews name" className=" h-16 w-16 " />
-          <p>{review.review}</p>
-          <h2 className="mt-7 font-bold text-gray-800">{review.name}</h2>
-          <h2 className="">{review.ratings}</h2>
+        <div >
+          <div className="border p-3">
+            <img src={mgs} alt="reviews" className=" h-16 w-16 " />
+            <p>{review.review}</p>
+            <h2 className="mt-7 font-bold text-gray-800">{review.name}</h2>
+            <h2 className="">{review.ratings}</h2>
+          </div>
         </div>
       ))}
+</div>
 
-      <div className="text-center my-10 ">
-        <button className="btn bg-sky-900 mx-auto text-center">Load More</button>
+      <div className="text-center mt-16 tesitmonialBtn">
+        <button className="btn bg-sky-900 ">Load More</button>
       </div>
     </div>
-  </div>
   );
 };
 

@@ -11,7 +11,7 @@
   font-family: Barlow;
   font-style: Bold;
   font-size: 42px;
-  line-height: 58px;
+  line-height: 38px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,6 +36,9 @@
 @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
   .testimonialContainer {
     margin-bottom: 25%;
+  }
+  .contentTestimonial{
+    padding: .8rem;
   }
 }
 

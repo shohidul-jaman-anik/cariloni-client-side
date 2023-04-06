@@ -1,12 +1,11 @@
 import React from "react";
-import image from "../../../Asset/Page1/Rectangle65.png";
 import image1 from "../../../Asset/Page1/Group 41684.png";
 import "./DealExamples.css";
 
 const DealExamples = () => {
   return (
     <div>
-        <h1 className="dealHeading">Deal <span className="underlineArrow">Examples</span> </h1>
+      <h1 className="dealHeading">Deal <span className="underlineArrow">Examples</span> </h1>
       <div className="dealContainer">
         <div className="dealExampleSection">
           <div className="ExampleDetails">
