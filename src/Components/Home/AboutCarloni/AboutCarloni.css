@@ -122,4 +122,27 @@
     bottom: -11%;
     right: -42.8%;
   }
+  .carloni-section {
+    align-items: end;
+    /* background-image: url("../../../Asset/Page1/Rectangle\ 35.png"); */
+  }
+  .carloniContent > h1 {
+    margin-top: 19%;
+    font-size: large;
+    
+  }
+  .carloniContent > p {
+    font-size: small;
+    margin: 0%;
+  }
+  .carloniBtn {
+    background-color: #f5f05e;
+    font-size: x-small;
+    margin: 0%;
+    
+  }
+  .btnSection>p{
+font-size: x-small;
+
+  }
 }

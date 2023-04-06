@@ -11,7 +11,7 @@ const AboutCarloni = () => {
     <div className="carloniContainer ">
       <div className="carloni-section">
         <div className=" lg:mr-20">
-          <img className="mt-[-55px]" src={carloni} alt="" />
+          <img className=" mt-[-55px]" src={carloni} alt="" />
         </div>
         <div className=" text-white carloniContent">
           <h1 className="font-bold text-4xl">
@@ -29,7 +29,7 @@ const AboutCarloni = () => {
           </p>
 
           <p className="mt-5">-You've Come To The Right Place.</p>
-          <div className="my-5 flex items-center">
+          <div className="btnSection my-5 flex items-center">
             <button className="btn btn-outline carloniBtn">
               <Link to="/">Read More</Link>
             </button>
