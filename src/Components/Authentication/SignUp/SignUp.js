@@ -1,16 +1,25 @@
-import React from "react";
-import "./SignUp.css"
-
+import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
+import "./SignUp.css";
 
 const SignUp = () => {
+  const [verify, setVerify] = useState(false);
+
+  // "site key :    6Lex9mglAAAAAJy2yzNKM5R9J1Hb4P35echLnduv"
+  // "secret key :    6Lex9mglAAAAABi5sLSV-MGVZ-V8fFg7Kg1fwqCl"
+
+  function onChange(value) {
+    console.log("6Lex9mglAAAAAJy2yzNKM5R9J1Hb4P35echLnduv", value);
+  }
+  
   return (
     <div className="signUpContainer">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
           <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
             <h1 class="title-font font-medium text-6xl text-white">
-            Carloni Report <p className="text-yellow-300">Sign Up</p>
-            </h1> 
+              Carloni Report <p className="text-yellow-300">Sign Up</p>
+            </h1>
             <p class="leading-relaxed mt-4 text-white">
               Find out what is happening with mortgage rates, the housing market
               in Penticton, and exclusive deals we’ve funded. You’ll quickly
@@ -22,7 +31,7 @@ const SignUp = () => {
             </p>
           </div>
           <div class="lg:w-2/6 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-            
+
             <div class="relative mb-4">
               <label for="full-name" class="leading-7 text-sm  text-white">
                 First Name
@@ -56,7 +65,13 @@ const SignUp = () => {
                 class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
-            <button class=" bg-yellow-300 font-bold border-0 py-2 px-8 focus:outline-none  rounded text-lg">
+
+            <ReCAPTCHA
+              sitekey="6Lex9mglAAAAAJy2yzNKM5R9J1Hb4P35echLnduv"
+              onChange={onChange}
+            />
+
+            <button disabled={!verify} class=" bg-yellow-300 font-bold border-0 py-2 px-8 focus:outline-none  rounded text-lg">
               Submit
             </button>
             {/* <p class="text-xs text-gray-500 mt-3">
