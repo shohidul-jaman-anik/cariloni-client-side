@@ -26,21 +26,21 @@ const ServicesList = () => {
         companies <br /> and many others to find the mortgage that is best for
         YOU.
       </p>
-      <div class="servicesList p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div className="servicesList p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {services.map((service) => (
           <div
-            class="rounded overflow-hidden shadow-lg"
+            className="rounded overflow-hidden shadow-lg"
             onClick={() => handleServiceDetails(service.id)}
           >
-            <img class="w-full" src={service.img} alt="Mountain" />
+            <img className="w-full" src={service.img} alt="Mountain" />
             <img
               src={service.logo}
               alt="services logo"
               className="mt-[-30px] ml-5"
             ></img>
-            <div class="px-6 py-6">
-              <div class=" mb-2 card-title">{service.name}</div>
-              <p class=" text-base">{service.description.substring(0, 150)}</p>
+            <div className="px-6 py-6">
+              <div className=" mb-2 card-title">{service.name}</div>
+              <p className=" text-base">{service.description.substring(0, 150)}</p>
             </div>
           </div>
         ))}

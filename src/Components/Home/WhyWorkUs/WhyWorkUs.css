@@ -1,7 +1,19 @@
 .work-us-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
+}
+.card-body > h2 {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 50px;
+}
+.card-body > p {
+  font-family: Poppins;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 24px;
 }
 .workUsContainer {
   padding: 5% 15%;
@@ -14,6 +26,8 @@
     padding: 5% 5%;
     background-size: 110rem;
     background-attachment: fixed;
+    margin-top: 10%;
+    margin-bottom: 5%;
   }
   .work-us-section {
     display: grid;
@@ -22,6 +36,7 @@
   }
   .card-body > h2 {
     font-size: xx-large;
+    line-height: 40px;
   }
 
   .card-body > p {
@@ -33,10 +48,20 @@
   .workUsContainer {
     padding: 5% 5%;
     background-size: 160rem;
+    margin-top: 5%;
   }
   .work-us-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .workUsContainer {
+    padding: 5% 10%;
+  }
+  .card-body > h2 {
+    font-size: 36px;
+    line-height: 43px;
   }
 }

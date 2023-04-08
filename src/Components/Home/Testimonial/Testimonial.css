@@ -11,12 +11,16 @@
   font-family: Barlow;
   font-style: Bold;
   font-size: 42px;
-  line-height: 38px;
+  line-height: 58px;
 }
 
 @media only screen and (max-width: 600px) {
+  .contentTestimonial {
+    padding: 0px;
+  }
   .contentTestimonial > div > h1 {
     font-size: large;
+    line-height: 24px;
   }
   .contentTestimonial > div > p {
     font-size: small;
@@ -26,36 +30,39 @@
   }
   .testimonialContainer {
     margin-bottom: 45%;
+    padding: 5% 5%;
   }
-  .quotaionImg{
+  .quotaionImg {
     height: 2rem;
     margin: 0%;
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
+  }
+  .arrowButton {
+    bottom: 5px;
+    
   }
 }
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 1048px) {
   .testimonialContainer {
     margin-bottom: 25%;
+    padding: 5% 10%;
   }
-  .contentTestimonial{
-    padding: .8rem;
+  .contentTestimonial {
+    padding: 0.8rem;
   }
 }
-
-
 
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
   .contentTestimonial > div > h1 {
-    font-size: x-large;
-    
+    font-size: xx-large;
   }
   .contentTestimonial > div > p {
-    font-size: small;
+    font-size: medium;
   }
   .contentTestimonial > div > h3 {
     font-size: small;
   }
-  .quotaionImg{
+  .quotaionImg {
     height: 2rem;
     margin: 0%;
     margin-bottom: 1rem;

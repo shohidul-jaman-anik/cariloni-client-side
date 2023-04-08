@@ -22,10 +22,16 @@
   background-position: bottom;
   /* margin-top: 20%; */
 }
+#sidebar:hover {
+  background-image: url("../../../Asset/Page1/Rectangle72.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* margin-top: 20%; */
+}
 
 @media only screen and (max-width: 600px) {
   .navContainer {
-    padding: 0% 5%;
+    padding: 0% 5% !important;
   }
   .navLogo {
     width: 100px;
@@ -46,14 +52,17 @@
     margin-left: 5%;
     justify-content: start;
   }
+  .navContainer {
+    padding: 0% 5%;
+  }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .navLink {
     margin-left: 5%;
   }
   .navContainer {
-    padding: 0% 14%;
+    padding: 0% 10%;
     
   }
 }

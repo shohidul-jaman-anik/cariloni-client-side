@@ -72,7 +72,7 @@ const Services = () => {
               <img
                 src={service.img}
                 alt="services name"
-                className="rounded-xl h-16 w-16 "
+                className="rounded-xl serviceIcon "
               />
             </div>
             <div className="card-body">

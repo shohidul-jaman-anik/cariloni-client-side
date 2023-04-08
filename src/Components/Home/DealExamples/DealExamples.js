@@ -15,7 +15,7 @@ const DealExamples = () => {
               years, summer (as we have always known it) is in full swing in
               Penticton BC. The Peach…
             </p>
-            <button className="btn btn-outline mt-5 ">Read More...</button>
+            <button className="btn btn-outline mt-5 ">Read More</button>
           </div>
           <div className="ExampleDetails">
             <h1>Penticton Real Estate News | July 2022</h1>
@@ -24,7 +24,7 @@ const DealExamples = () => {
               years, summer (as we have always known it) is in full swing in
               Penticton BC. The Peach…
             </p>
-            <button className="btn btn-outline mt-5">Read More...</button>
+            <button className="btn btn-outline mt-5">Read More</button>
           </div>
           <div className="ExampleDetails">
             <h1>Penticton Real Estate News | July 2022</h1>
@@ -33,7 +33,7 @@ const DealExamples = () => {
               years, summer (as we have always known it) is in full swing in
               Penticton BC. The Peach…
             </p>
-            <button className="btn btn-outline mt-5">Read More...</button>
+            <button className="btn btn-outline mt-5">Read More</button>
           </div>
           <div className="ExampleDetails">
             <h1>Penticton Real Estate News | July 2022</h1>
@@ -43,7 +43,7 @@ const DealExamples = () => {
               Penticton BC. The Peach…
             </p>
             <button className="btn btn-outline mt-5" mt-5>
-              Read More...
+              Read More
             </button>
           </div>
         </div>

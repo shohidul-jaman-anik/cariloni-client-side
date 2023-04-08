@@ -1,13 +1,15 @@
 .contactContainer {
   padding: 5% 15%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  column-gap: 2rem;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  column-gap: 5rem;
+  display: flex;
   align-items: center;
-  margin-top: 15%;
+  justify-content: center;
+  margin-top: 18%;
 }
 .contactInfo {
-  margin-right: 8%;
+  /* margin-right: 8%; */
 }
 .contactInfo > p {
   font-weight: 400;
@@ -20,7 +22,7 @@
 }
 .googlemap {
   height: 29.2rem;
-  /* width: 45.5rem; */
+  width: 45.5rem;
 }
 .contactInfo > h1 {
   text-align: end;
@@ -33,20 +35,26 @@
   background-image: url("../../../Asset/Page1/Rectangle72.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 55%;
+  background-size: 35%;
 }
 
 @media only screen and (max-width: 600px) {
   .contactContainer {
     padding: 5% 5%;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 1.5rem;
     /* align-items: center; */
   }
+  .contactUnderline {
+    background-size: 45%;
+  }
+  .contactInfo{
+
+  }
   .googlemap {
     height: 29.2rem;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
   .contactInfo > h1 {
@@ -68,27 +76,35 @@
         Responsive For Tablet 
 --------------------------------------*/
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 1048px) {
   .contactContainer {
-    padding: 5% 5%;
+    padding: 5% 10%;
     display: flex;
+  }
+  .contactUnderline {
+    background-size: 65%;
   }
   .contactInfo {
     width: 50%;
   }
   .googlemap {
     height: 29.2rem;
-    width: 100%;
+    width: 26.5rem !important;
   }
 }
 
-
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
-  /* .googlemap {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .googlemap {
     height: 29.2rem;
-    width: 50%;
-    margin: 0 auto;
-  } */
+    width: 35.5rem;
+  }
+  .contactContainer {
+    padding: 5% 10%;
+    display: flex;
+  }
+  .contactUnderline {
+    background-size: 46%;
+  }
 }
 @media only screen and (min-device-width: 1400px) and (max-device-width: 2524px) {
   .contactContainer {

@@ -6,7 +6,7 @@ const HowItWorks = () => {
     <div className="how-work-container">
       <h1 className="text-white text-4xl font-semibold mb-16 text-center">How <span className="underlineArrow"> It Works</span></h1>
       <div className="how-work-section">
-        <div class="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <div className="numberContainer">
             <p>01</p>
           </div>
@@ -17,9 +17,9 @@ const HowItWorks = () => {
             online. We take the time to get to know you and your needs.
           </p>
         </div>
-        <div class="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <div className="numberContainer">
-            <p5>02</p5>
+            <p>02</p>
           </div>
           <h1 className="text-3xl font-semibold my-5">We Shop</h1>
           <p>
@@ -28,7 +28,7 @@ const HowItWorks = () => {
             depending on your situation to find you the best mortgage options.
           </p>
         </div>
-        <div class="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <div className="numberContainer">
             <p>03</p>
           </div>
@@ -39,7 +39,7 @@ const HowItWorks = () => {
             mortgage. This can all be done online or in person if you wish.
           </p>
         </div>
-        <div class="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+        <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
           <div className="numberContainer">
             <p>04</p>
           </div>

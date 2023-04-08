@@ -36,6 +36,7 @@
     padding: 5% 5% 0% 5%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
   }
   .carloni-section > div > img {
     margin-top: 15%;
@@ -79,7 +80,7 @@
     margin-left: 1rem;
   }
   .carloni-section {
-    padding: 0% 5%;
+    padding: 0% 5% !important;
   }
   .carloni-section > div > img {
     width: 100%;
@@ -100,10 +101,10 @@
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .boxArrow {
     bottom: -12%;
-    right: -0%;
+    right: -42.8%;
     background-color: #f5f05e;
     height: 80px;
     width: 80px;
@@ -117,32 +118,33 @@
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .boxArrow {
     bottom: -11%;
-    right: -42.8%;
+    right: -24.9%;
   }
   .carloni-section {
     align-items: end;
     /* background-image: url("../../../Asset/Page1/Rectangle\ 35.png"); */
   }
   .carloniContent > h1 {
-    margin-top: 19%;
-    font-size: large;
-    
+    /* margin-top: 10%; */
+    font-size: xx-large;
+    margin-bottom: 3%;
   }
   .carloniContent > p {
-    font-size: small;
+    font-size: large;
     margin: 0%;
   }
   .carloniBtn {
     background-color: #f5f05e;
-    font-size: x-small;
+    font-size: small;
     margin: 0%;
-    
   }
-  .btnSection>p{
-font-size: x-small;
-
+  .btnSection > p {
+    font-size: small;
+  }
+  .carloni-section {
+    padding: 0% 10%;
   }
 }

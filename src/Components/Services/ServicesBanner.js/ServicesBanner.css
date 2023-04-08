@@ -61,11 +61,14 @@
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1440px) {
   .bannerContainer {
     height: 48rem;
   }
   .bannerImg {
     width: fit-content;
+  }
+  .serviceBannerContainer {
+    padding: 5% 10% !important;
   }
 }

@@ -113,23 +113,36 @@
         Responsive For Tablet 
 --------------------------------------*/
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 576px) and (max-device-width: 788px) {
   .detailsTinyBox {
-    display: none !important;
+    right: -12%;
+    top: 25% !important;
   }
   .detailsImgSection {
     background-image: url("../../../Asset/Details/Rectangle\ 66.png");
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 40%;
+    /* background-size: 40%; */
   }
 }
 
+@media only screen and (min-device-width: 788px) and (max-device-width: 1078px) {
+  .detailsTinyBox {
+    right: -8%;
+    top: 30% !important;
+  }
+  .detailsImgSection {
+    background-image: url("../../../Asset/Details/Rectangle\ 66.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    /* background-size: 40%; */
+  }
+}
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1444px) {
   .detailsTinyBox {
     /* bottom: 5%; */
     right: -8%;
-    top: 30% !important;
+    top: 38% !important;
   }
 }

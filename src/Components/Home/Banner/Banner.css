@@ -13,6 +13,13 @@
   line-height: 82px;
   height: 52rem;
 }
+.bannerContent > div {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 62px;
+  line-height: 82px;
+  line-height: 110%;
+}
 
 .highliteText {
   color: #f5f05e;
@@ -38,15 +45,15 @@
     grid-template-columns: repeat(1, 1fr);
     align-items: center !important;
     padding: 10% 5%;
-    height: 36rem;
+    height: 38rem;
     width: 100%;
   }
   .bannerContent div {
-    font-size: x-large;
-    line-height: 15px;
+    font-size: xx-large !important;
+    line-height: 46px !important;
   }
   .bannerImg {
-    width: 15rem;
+    width: 100% !important;
     height: 20rem;
     margin-top: 2rem;
     float: right !important;
@@ -58,9 +65,10 @@
   .serviceContent > h3 {
     font-size: medium;
   }
+
 }
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 1048px) {
   .serviceBannerContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -69,19 +77,41 @@
     /* height: 36rem;
     width: 100%; */
   }
+  .bannerContainer {
+    padding: 5% 8%;
+  }
   .serviceContent > h2 {
     font-size: xx-large;
   }
   .serviceContent > h3 {
     font-size: large;
   }
+  .bannerImg {
+    width: 110%;
+    height: 90%;
+    margin-top: 2rem;
+    float: right !important;
+  }
+  .bannerContainer {
+    height: 35rem !important;
+  }
+  .bannerContent > div {
+    font-family: Barlow;
+    font-style: Bold;
+    font-size: 42px;
+    line-height: 52px;
+  }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .bannerContainer {
-    height: 48rem;
+    height: 53rem !important;
+    padding: 5% 10%;
   }
   .bannerImg {
     width: fit-content;
+  }
+  .bannerContent > div {
+    font-size: 42px;
   }
 }

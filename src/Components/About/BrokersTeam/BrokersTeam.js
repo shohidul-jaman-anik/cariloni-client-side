@@ -8,7 +8,7 @@ const BrokersTeam = () => {
     <div className="teamContainer gap-x-10">
       <div className="teamDetails">
         <h1 className="font-bold text-4xl">
-          About The<span className="underlineArrow ">Carloni Mortgage</span>Brokers Team
+          About The <span className="underlineArrow ">Carloni Mortgage</span> Brokers Team
         </h1>
         <h3 className="mt-5 font-bold text-xl ">Amanda Quigley – Assistant</h3>
         <p className="mt-5">

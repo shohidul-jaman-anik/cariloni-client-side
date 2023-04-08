@@ -4,14 +4,18 @@
   align-items: center;
   /* grid-template-columns: repeat(2, 1fr); */
   padding: 5% 12%;
+  column-gap: 5rem;
 }
 .dealExampleSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  width: 30%;
+  width: 45% !important;
   row-gap: 7.3rem;
   column-gap: 3.8rem;
+}
+.ExampleImage{
+  width: 40% !important;
 }
 .ExampleDetails h1 {
   color: #001e3e;
@@ -40,10 +44,15 @@
   }
   .dealContainer {
     flex-direction: column;
-    /* padding: 5% 5%; */
+    padding: 5% 5%;
+  }
+  .ExampleDetails {
+    margin-top: 7%;
   }
   .ExampleImage {
-    margin-top: 10%;
+    margin-top: 12%;
+    width: 90% !important;
+    margin-bottom: 5%;
   }
 }
 
@@ -65,6 +74,7 @@
   }
   .ExampleImage {
     margin-top: 10%;
+    width: 90% !important;
   }
 }
 

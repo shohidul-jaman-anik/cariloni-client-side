@@ -17,12 +17,10 @@ const Banner = () => {
               <h2 className="bannerContent text-white text-5xl leading-">
                 <div className="mb-5">
                   {" "}
-                  A <span className="highliteText"> FREE </span>No Obligation{" "}
+                  A <span className="highliteText"> FREE </span>No Obligation{" "} <br/>
+                  Call Should <span className="highliteText"> SAVE YOU</span> Thousands!
                 </div>
-                <div className="my-5">
-                  Call Should <span className="highliteText"> SAVE YOU</span>
-                </div>
-                <div className="my-5"> Thousands!</div>
+               
               </h2>
               <ShareButton>Call Now 250-493-9111</ShareButton>
             </div>

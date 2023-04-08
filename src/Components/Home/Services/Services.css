@@ -1,6 +1,6 @@
-.servicesSection{
+.servicesSection {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 .servicesContainer {
@@ -17,18 +17,30 @@
 .card-body > p {
   color: #2d2d2d;
 }
+
+.card-body > h2 {
+  font-size: 26px !important;
+  font-family: Barlow;
+  font-style: SemiBold;
+}
+
 .serviceSubTitile {
   font-family: Barlow;
   font-style: Regular;
   font-size: 18px;
-  color: #001E3E;
+  color: #001e3e;
   margin-top: 15px;
 }
 
+.serviceIcon {
+  width: 60px;
+  height: 60px;
+}
+
 @media only screen and (max-width: 600px) {
-  .servicesSection{
+  .servicesSection {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
   }
   .servicesContainer {
@@ -42,14 +54,19 @@
   }
 }
 
-
 @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
-  .servicesSection{
+  .servicesSection {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
   .servicesContainer {
     padding: 5% 5% !important;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .servicesContainer {
+    padding: 5% 10% !important;
   }
 }

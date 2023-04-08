@@ -34,7 +34,8 @@
     font-size: small;
   }
   .reneCarloniContent > h1{
-    font-size: larger;
+    font-size: 36px;
+    margin-top: 1rem;
   }
   .reni-section {
     flex-direction: column;

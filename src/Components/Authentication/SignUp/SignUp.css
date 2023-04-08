@@ -1,3 +1,93 @@
-.signUpContainer{
-    background-image: linear-gradient(115.66deg, #18314B 9.36%, #14283E 49.81%);
+.signUpContainer {
+  background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
+  padding: 5% 15%;
+}
+
+.reportSection{
+  /* display: grid;
+  grid-template-columns: repeat(2,1fr); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactForm input {
+  width: 509px;
+  height: 60px;
+}
+.contactHr {
+  height: 2rem;
+  margin-top: 2rem;
+}
+.contactSideContent > h1 {
+  font-family: Barlow;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 82px;
+}
+.contactSideContent > p {
+  font-size: 20px;
+  font-family: Barlow;
+}
+
+@media only screen and (max-width: 600px) {
+    .signUpContainer {
+        padding: 5% 5%;
+      }
+      .reportSection{
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .contactForm input {
+        width: 290px;
+        height: 40px;
+      }
+      .contactSideContent > h1 {
+        font-size: 42px;
+        line-height: 52px;
+        margin: 0%;
+      }
+      .contactSideContent > p {
+        font-size: 16px;
+        font-family: Barlow;
+      }
+}
+@media only screen and (min-device-width: 578px) and (max-device-width: 1028px) {
+    .signUpContainer {
+        padding: 5% 5%;
+      }
+      .contactForm input {
+        width: 309px;
+        height: 40px;
+      }
+      .contactSideContent > h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin: 0%;
+      }
+      .contactSideContent > p {
+        font-size: 16px;
+        font-family: Barlow;
+      }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .signUpContainer {
+    /* padding: 5% 10%; */
+  }
+  .contactForm input {
+    width: 329px;
+    height: 50px;
+  }
+  .contactSideContent > h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0%;
+  }
+  .contactSideContent > p {
+    font-size: 16px;
+    font-family: Barlow;
+  }
 }

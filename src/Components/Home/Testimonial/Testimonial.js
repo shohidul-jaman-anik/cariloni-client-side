@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./Testimonial.css";
 import quotaion from "../../../Asset/Page1/quotation.png";
+import rightArrow from "../../../Asset/Page1/Stroke-1 (1).png"
+import leftArrow from "../../../Asset/Page1/Stroke-1.png"
+
 
 const Testimonial = () => {
   const people = [
@@ -18,7 +21,7 @@ const Testimonial = () => {
       picture:
         "https://fancytailwind.com/static/profile16-3468a6740e58a45b951142454acb94d0.jpg",
       testimony:
-        "Rene is very professional, friendly, and easy to talk too. This was our first mortgage and he made sure we understood all the information, plus he got us the best rates. I have recommended a few of my friends to him now and they are over the moon with the deals he did for them. Great guy and I will continue to tell my friends to go with his company.",
+        "Carloni is very professional, hard-worker, and easy to talk too. This was our first mortgage and he made sure we understood all the information, plus he got us the best rates. I have recommended a few of my friends to him now and they are over the moon with the deals he did for them. Great guy and I will continue to tell my friends to go with his company.",
     },
   ];
   const [current, setCurrent] = useState(0);
@@ -41,10 +44,10 @@ const Testimonial = () => {
           </div>
 
           {/* :TESTIMONY CONTAINER */}
-          <div className="contentTestimonial z-10 relative py-10   w-full  min-h-360px rounded md:rounded-r-none  bg-opacity-70 md:bg-opacity-100 text-white">
+          <div className="contentTestimonial z-10 relative py-14 px-12   w-full  min-h-360px rounded md:rounded-r-none  bg-opacity-70 md:bg-opacity-100 text-white">
             <div className=" mx-10 max-w-md flex flex-col">
               <h1 className="text-white text-4xl font-bold ">
-                Happy <span className="underlineArrow"> customers </span> say about us
+                Happy <span className="underlineArrow"> customers </span> <br/> Say about us
               </h1>
 
               {/* ::Quote SVG */}
@@ -62,7 +65,7 @@ const Testimonial = () => {
                 
               </div>
               {/* ::Testimony */}
-              <p className="text-xl sm:text-1xl lg:text-2xl  leading-normal">
+              <p className="text-xl sm:text-1xl lg:text-2xl leading-normal">
                 {people[current].testimony}
               </p>
               {/* ::Name */}
@@ -75,23 +78,25 @@ const Testimonial = () => {
           </div>
 
           {/* :BUTTONS */}
-          <div className="z-10 absolute -bottom-5 right-1/2 md:-right-3 py-1 px-3 space-x-3 flex bg-white text-yellow-100 transform translate-x-1/2 md:translate-x-0">
-            <button
+          <div className="arrowButton z-10 absolute bottom-11  right-1/2 md:-right-3 py-1 px-3 space-x-3 flex text-yellow-100 transform translate-x-1/2 md:translate-x-0 mr-16">
+            <img
+            src={rightArrow}
               type="button"
               aria-label="previous"
               className="flex-shrink-0 hover:text-white"
               onClick={previousTestimony}
             >
-              {/* <ArrowNarrowLeftIcon className="w-8" /> */} ⏪
-            </button>
-            <button
+              {/* <ArrowNarrowLeftIcon className="w-8" /> */} 
+            </img>
+            <img
+            src={leftArrow}
               type="button"
               aria-label="next"
               className="flex-shrink-0 hover:text-white"
               onClick={nextTestimony}
             >
-              {/* <ArrowNarrowRightIcon className="w-8" /> */} ⏩
-            </button>
+              {/* <ArrowNarrowRightIcon className="w-8" /> */} 
+            </img>
           </div>
         </div>
       </div>

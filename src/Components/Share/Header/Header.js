@@ -5,35 +5,49 @@ import "./Header.css";
 import logo from "../../../Asset/Page1/navLogo.png";
 
 const Header = () => {
-
   const menuItems = (
     <>
       <li id="sidebar" className="font-bold navLink">
-        <NavLink to="/" className="">Home</NavLink>
+        <NavLink to="/" className="">
+          Home
+        </NavLink>
       </li>
       <li id="sidebar" className="font-bold navLink ">
         <NavLink to="/services">Services</NavLink>
       </li>
       <li id="sidebar" className="font-bold navLink">
-        <NavLink to="/about" className=" ">About</NavLink>
+        <NavLink to="/about" className=" ">
+          About
+        </NavLink>
       </li>
       <li id="sidebar" className="font-bold navLink">
-        <NavLink to="/blogs" className="">Blog</NavLink>
+        <NavLink to="/blogs" className="">
+          Blog
+        </NavLink>
       </li>
       <li id="sidebar" className="font-bold navLink">
-        <NavLink to="/testimonials" className="">Testmonials</NavLink>
+        <NavLink to="/testimonials" className="">
+          Testmonials
+        </NavLink>
       </li>
       <li id="sidebar" className="font-bold navLink">
-        <NavLink to="/report" className=" ">Report</NavLink>
+        <NavLink to="/report" className=" ">
+          Report
+        </NavLink>
       </li>
-      {/* <li className="font-bold">
-        <NavLink to="/">Apply</NavLink>
-      </li> */}
+      <button className="headerBtn  btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
+        <Link to="/contact">Contact</Link>
+      </button>
     </>
   );
   return (
     <div className="flex justify-between items-center navContainer ">
-      <div className="  navbar bg-base-100">
+      {/* <div>
+        <Link to="/">
+          <img src={logo} alt="" className="navLogo"></img>
+        </Link>
+      </div> */}
+      <div className=" navbar bg-base-100">
         <div className="">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden ">
@@ -54,28 +68,60 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className=" menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
+              className=" dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
             >
-              {menuItems}
+              <>
+                <li id="sidebar" className="font-bold navLink my-3">
+                  <NavLink to="/" className="my-14">
+                    Home
+                  </NavLink>
+                </li>
+                <li id="sidebar" className="font-bold navLink  my-3">
+                  <NavLink to="/services">Services</NavLink>
+                </li>
+                <li id="sidebar" className="font-bold navLink my-3">
+                  <NavLink to="/about" className=" ">
+                    About
+                  </NavLink>
+                </li>
+                <li id="sidebar" className="font-bold navLink my-3">
+                  <NavLink to="/blogs" className="">
+                    Blog
+                  </NavLink>
+                </li>
+                <li id="sidebar" className="font-bold navLink my-3">
+                  <NavLink to="/testimonials" className="">
+                    Testmonials
+                  </NavLink>
+                </li>
+                <li id="sidebar" className="font-bold navLink my-3">
+                  <NavLink to="/report" className=" ">
+                    Report
+                  </NavLink>
+                </li>
+                <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900 !ml-5  mb-3">
+                  <Link to="/contact">Contact</Link>
+                </button>
+              </>
             </ul>
           </div>
           <div>
-           <Link to="/">
-           <img src={logo} alt="" className="navLogo"></img>
-           </Link>
+            <Link to="/">
+              <img src={logo} alt="" className="navLogo"></img>
+            </Link>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="mx-auto menu-horizontal px-1">{menuItems}</ul>
+        <div className="navbar-center  mx-auto hidden lg:flex">
+          <ul className="mx-auto items-center menu-horizontal px-1">
+            {menuItems}
+          </ul>
         </div>
-       
       </div>
       {/* <div className="navbar-end"> */}
-          <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900">
-            <Link to="/contact">Contact</Link>
-          </button>
-        {/* </div> */}
-     
+      {/* <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900">
+        <Link to="/contact">Contact</Link>
+      </button> */}
+      {/* </div> */}
     </div>
   );
 };

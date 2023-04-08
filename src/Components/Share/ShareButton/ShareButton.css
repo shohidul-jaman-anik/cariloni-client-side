@@ -9,7 +9,7 @@
   .primaryBtn {
     width: 65%;
     height: 10% !important;
-    font-size: xx-small;
+    font-size: small;
     display: flex;
   }
   .callVector {
