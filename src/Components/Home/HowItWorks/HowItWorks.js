@@ -7,8 +7,10 @@ const HowItWorks = () => {
       <h1 className="text-white text-4xl font-semibold mb-16 text-center">How <span className="underlineArrow"> It Works</span></h1>
       <div className="how-work-section">
         <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="circleArrow">
           <div className="numberContainer">
             <p>01</p>
+          </div> 
           </div>
           <h1 className="text-3xl font-semibold my-5">You Apply</h1>
           <p>

@@ -30,7 +30,7 @@ const Footer = () => {
          </div>
 
         </div>
-        <div>
+        <div className="lg:mt-10 md:mt-10">
           {/* <span className="footer-title">Services</span> */}
           <span className="text-2xl">Services</span>
           <Link to="/" className="link link-hover text-gray-400">
@@ -46,7 +46,7 @@ const Footer = () => {
             Advertisement
           </Link>
         </div>
-        <div>
+        <div className="lg:mt-10 md:mt-10">
           <span className="text-2xl">Help & Supports</span>
           <Link to="/" className="link link-hover text-gray-400">
             Help

@@ -15,13 +15,20 @@
   column-gap: 3.8rem;
 }
 .ExampleImage{
-  width: 40% !important;
+  width: 50% !important;
+  
 }
 .ExampleDetails h1 {
   color: #001e3e;
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 1rem;
+}
+.ExampleDetails p {
+  color:#2D2D2D;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }
 .dealHeading {
   color: #001e3e;
@@ -83,7 +90,7 @@
     width: 50%;
   }
   .ExampleDetails h1 {
-    font-size: 24px;
+    font-size: 21px;
     line-height: normal;
     margin-bottom: .5rem;
   }
