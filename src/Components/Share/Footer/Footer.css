@@ -8,6 +8,30 @@
    justify-content: space-between;
 }
 
+.facebookBtn:hover {
+    color: #4267B2 !important;
+    border: 2px solid #4267B2 !important;
+    background-color: white;
+}
+.twitterBtn:hover {
+    color: #1DA1F2 !important;
+    border: 2px solid #1DA1F2 !important;
+    background-color: white;
+}
+.linkedInBtn:hover {
+    color: #0E76A8 !important;
+    border: 2px solid #0E76A8 !important;
+    background-color: white;
+}
+.InstaBtn:hover  {
+    color: #ec520a !important;
+    border: 2px solid #ec520a !important;
+    background-color: white;
+}
+.InstaBtn:hover svg {
+    color: #ec520a !important;
+}
+
 @media only screen and (max-width: 600px) {
     .footerContainer{
         padding: 5% 5% ;
