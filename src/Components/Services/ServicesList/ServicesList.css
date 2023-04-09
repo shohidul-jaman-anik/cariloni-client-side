@@ -9,8 +9,8 @@
   font-size: 42px;
   line-height: 50px;
   text-align: center;
-  color: #001E3E;
-  Font-family: Barlow;
+  color: #001e3e;
+  font-family: Barlow;
 }
 .serviceDescription {
   font-weight: 400;
@@ -18,34 +18,48 @@
   line-height: 24px;
   margin-top: 1rem;
   text-align: center;
-  Font-family: Barlow;
-  color:#001E3E;
-
+  font-family: Barlow;
+  color: #001e3e;
 }
 
 @media only screen and (max-width: 600px) {
   .servicesContainer {
-      padding: 5% 5% !important;
-    }
-    .servicesList{
-      padding: 0%;
-    }
+    padding: 5% 5% !important;
+  }
+  .servicesContainer h1 {
+    font-size: xx-large;
+    line-height: 30px;
+  }
+  .servicesContainer p {
+    font-size: larger;
+  }
+  .serviceDescription {
+    margin-bottom: 3rem;
+  }
+  .card-title{
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+  .servicesList {
+    padding: 0%;
+  }
 }
-
 
 /*--------------------------------------
         Responsive For Tablet 
 --------------------------------------*/
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
-  .servicesList{
+@media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
+  .servicesContainer {
+    padding: 5% 10%;
+  }
+  .servicesList {
     padding: 0%;
   }
 }
 
-
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1480px) {
   .servicesContainer {
-    padding: 5% 10% !important;
+    padding: 5% 8% !important;
   }
 }

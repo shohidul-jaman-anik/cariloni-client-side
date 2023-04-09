@@ -36,7 +36,7 @@
   right: -20%;
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1444px) {
   .contactMap {
     width: 60%;
     height: 34.5rem;
@@ -44,6 +44,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .mapHeading {
+    padding: 0% 20.5% ;
   }
   .contactInformation {
     /* background-image: url("../../Asset/Contact/Carloni.png");
@@ -80,8 +83,12 @@
     grid-template-columns: repeat(1,1fr);
   }
   .contactMap {
-    width: 70%;
+    width: 80%;
     height: 34.5rem;
+  }
+  .mapHeading {
+    padding: 0% 10.5% ;
+    font-size: x-larger;
   }
   .contactInformation {
     height: 60%;
@@ -116,6 +123,9 @@
     margin: 0 auto;
     margin-top: 25%;
     position: relative;
+  }
+  .mapHeading {
+    padding: 0% 20.5% ;
   }
   .contactMap {
     width: 70%;

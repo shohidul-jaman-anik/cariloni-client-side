@@ -39,7 +39,7 @@ const ServicesDetails = () => {
         </div>
         <div className="detailsContent">
           <div className="detailsImgSection ">
-            <img src={detailsImg} className="detailsImg" alt=""></img>
+            <img src={data.img} className="detailsImg" alt=""></img>
           </div>
           <div className="detailsTinyBox">
           

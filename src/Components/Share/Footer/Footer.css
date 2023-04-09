@@ -3,19 +3,31 @@
     background-size: cover;
     padding: 5% 15% ;
 }
-
+.downFooter{
+    padding: 2% 15% ;
+   justify-content: space-between;
+}
 
 @media only screen and (max-width: 600px) {
     .footerContainer{
         padding: 5% 5% ;
     }
     .downFooter{
-        flex-direction: column;
-        justify-content: start;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: start ;
+        padding: 0% !important;
+        padding: 0% 5% !important;
+        
     }
     .downFooter >p{
-        padding: 0% 15%;
+        padding: 0% !important;
         margin-bottom: 1rem;
+    }
+    .downFooter> img{
+     float: left !important; 
+     flex: none;
+     margin-right: 0% auto !important;
     }
 }
 
@@ -24,7 +36,10 @@
           Responsive For Tablet 
  --------------------------------------*/
 
- @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+ @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
+    .footerContainer{
+        padding: 5% 10% ;
+    }
     .how-work-container{
         padding: 5% 5% ;
         background-size: cover;
@@ -41,5 +56,23 @@
     .downFooter >p{
         padding: 0% 15%;
         margin-bottom: 1rem;
+    }
+    .downFooter{
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 5% 5% ; */
+    
+    }
+    .downFooter> img{
+      
+    }
+ }
+
+ @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+    .footerContainer{
+        padding: 5% 10% ;
+    }
+    .downFooter{
+        padding: 2% 10% ;
     }
  }

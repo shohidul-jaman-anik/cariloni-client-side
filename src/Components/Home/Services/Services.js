@@ -1,12 +1,12 @@
 import React from "react";
 import ShareButton from "../../Share/ShareButton/ShareButton";
 import "./Services.css";
-import img1 from "../../../Asset/Page1/Vector-7.png";
-import img2 from "../../../Asset/Page1/Vector-8.png";
-import img3 from "../../../Asset/Page1/Vector-9.png";
-import img4 from "../../../Asset/Page1/Vector-12.png";
-import img5 from "../../../Asset/Page1/Vector-10.png";
-import img6 from "../../../Asset/Page1/Vector-11.png";
+import img1 from "../../../Asset/Page1/Vector (1f).svg";
+import img2 from "../../../Asset/Page1/Vector (1).svg";
+import img3 from "../../../Asset/Page1/Vector (2).svg";
+import img4 from "../../../Asset/Page1/Vector (3).svg";
+import img5 from "../../../Asset/Page1/Vector (4).svg";
+import img6 from "../../../Asset/Page1/Vector (5).svg";
 
 const Services = () => {
   const services = [

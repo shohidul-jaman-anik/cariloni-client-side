@@ -42,17 +42,37 @@
     
   }
 }
+
 @media only screen and (min-device-width: 578px) and (max-device-width: 1048px) {
   .testimonialContainer {
-    margin-bottom: 25%;
+    margin-bottom: 15%;
     padding: 5% 10%;
   }
+  .contentTestimonial > div > h1 {
+    font-size: xx-large;
+    line-height: 36px;
+  }
+  .contentTestimonial > div > p {
+    font-size: 16px ;
+    /* line-height: 36px; */
+  }
+  .quotaionImg {
+    margin-top: 15px !important;
+  }
   .contentTestimonial {
-    padding: 0.8rem;
+    padding: 15px 0px !important;
+  }
+  .arrowButton {
+    bottom: 10px !important;
+
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1484px) {
+  .testimonialContainer {
+    margin-bottom: 15%;
+    padding: 5% 10%;
+  }
   .contentTestimonial > div > h1 {
     font-size: xx-large;
   }

@@ -3,7 +3,7 @@
   padding: 5% 15%;
 }
 
-.reportSection{
+.reportSection {
   /* display: grid;
   grid-template-columns: repeat(2,1fr); */
   display: flex;
@@ -30,52 +30,54 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .signUpContainer {
-        padding: 5% 5%;
-      }
-      .reportSection{
-        /* display: grid;
+  .signUpContainer {
+    padding: 5% 5%;
+  }
+  .reportSection {
+    /* display: grid;
         grid-template-columns: repeat(2,1fr); */
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .contactForm input {
-        width: 290px;
-        height: 40px;
-      }
-      .contactSideContent > h1 {
-        font-size: 42px;
-        line-height: 52px;
-        margin: 0%;
-      }
-      .contactSideContent > p {
-        font-size: 16px;
-        font-family: Barlow;
-      }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactForm input {
+    width: 95%;
+    height: 40px;
+  }
+ 
+  .contactSideContent > h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin: 0%;
+  }
+  .contactSideContent > p {
+    font-size: 16px;
+    font-family: Barlow;
+  }
 }
+
 @media only screen and (min-device-width: 578px) and (max-device-width: 1028px) {
-    .signUpContainer {
-        padding: 5% 5%;
-      }
-      .contactForm input {
-        width: 309px;
-        height: 40px;
-      }
-      .contactSideContent > h1 {
-        font-size: 32px;
-        line-height: 42px;
-        margin: 0%;
-      }
-      .contactSideContent > p {
-        font-size: 16px;
-        font-family: Barlow;
-      }
+  .signUpContainer {
+    padding: 5% 10%;
+  }
+  .contactForm input {
+    width: 309px;
+    height: 40px;
+  }
+  .contactSideContent > h1 {
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0%;
+  }
+  .contactSideContent > p {
+    font-size: 16px;
+    font-family: Barlow;
+  }
 }
 
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .signUpContainer {
-    /* padding: 5% 10%; */
+    padding: 5% 10%;
   }
   .contactForm input {
     width: 329px;

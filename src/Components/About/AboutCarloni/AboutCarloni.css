@@ -1,9 +1,9 @@
 .aboutCarloni{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    padding: 5% 10%;
+    padding: 5% 15%;
 }
 .carloniDetails{
     width: 40%;
@@ -30,18 +30,26 @@
           Responsive For Tablet 
  --------------------------------------*/
 
- @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+ @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
     .aboutCarloni{
         display: flex;
         justify-content: space-between;
         gap: 1rem;
-        padding: 5% 5%;
+        padding: 5% 10%;
     }
     .carloniDetails{
         width: 50%;
     }
+    .carloniDetails >h1{
+        font-size: 26px;
+    }
+    .carloniDetails p{
+        font-size: 16px;
+    }
  }
 
  @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
-   
+    .aboutCarloni{
+        padding: 5% 10%;
+    }
   }

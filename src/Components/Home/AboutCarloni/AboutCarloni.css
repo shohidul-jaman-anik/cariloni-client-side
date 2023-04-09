@@ -122,10 +122,10 @@
   }
 }
 
-@media only screen and (min-device-width: 778px) and (max-device-width: 1048px) {
+@media only screen and (min-device-width: 778px) and (max-device-width: 1324px) {
   .boxArrow {
     bottom: -11%;
-    left: 120% !important;
+    left: 93% !important;
   }
   .carloni-section {
     align-items: end;
@@ -147,10 +147,28 @@
   }
  
 }
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
   .boxArrow {
     bottom: -12%;
-    right: -42.8%;
+    /* right: -42.8%; */
+    left: 120% !important;
+    background-color: #f5f05e;
+    height: 80px;
+    width: 80px;
+  }
+  .carloniContent > h1 {
+    margin-top: 27%;
+    font-size: x-large;
+  }
+  .carloniContent > p {
+    font-size: small;
+  }
+}
+@media only screen and (min-device-width: 1424px) and (max-device-width: 1824px) {
+  .boxArrow {
+    bottom: -12%;
+    /* right: -42.8%; */
+    left: 127% !important;
     background-color: #f5f05e;
     height: 80px;
     width: 80px;

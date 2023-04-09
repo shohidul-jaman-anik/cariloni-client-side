@@ -21,7 +21,7 @@
     grid-template-columns: repeat(1, 1fr);
     align-items: center !important;
     padding: 5% 5%;
-    height: 69rem;
+    height: 70rem;
     width: 100%;
     row-gap: 2rem;
   }
@@ -36,9 +36,6 @@
     float: right !important;
   }
 
-  .serviceContent > h2 {
-    font-size: xx-large;
-  }
   .serviceContent > h3 {
     font-size: medium;
   }

@@ -1,11 +1,12 @@
 .contactContainer {
   padding: 5% 15%;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-  column-gap: 5rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* column-gap: 5rem;
+  display: flex; */
   align-items: center;
   justify-content: center;
+  /* column-gap: 4rem; */
   margin-top: 18%;
 }
 .contactInfo {
@@ -45,12 +46,12 @@
     grid-template-columns: repeat(1, 1fr);
     row-gap: 1.5rem;
     /* align-items: center; */
+   
   }
   .contactUnderline {
     background-size: 45%;
   }
-  .contactInfo{
-
+  .contactInfo {
   }
   .googlemap {
     height: 29.2rem;
@@ -75,32 +76,74 @@
 /*--------------------------------------
         Responsive For Tablet 
 --------------------------------------*/
-
-@media only screen and (min-device-width: 578px) and (max-device-width: 1048px) {
+ 
+@media only screen and (min-device-width: 576px) and (max-device-width: 778px) {
   .contactContainer {
-    padding: 5% 10%;
+    padding: 5% 10% !important;
     display: flex;
-  }
-  .contactUnderline {
-    background-size: 65%;
-  }
-  .contactInfo {
-    width: 50%;
+    column-gap: 3rem;
+    justify-content: start;
+    margin-top: 10% !important;
   }
   .googlemap {
-    height: 29.2rem;
-    width: 26.5rem !important;
+    height: 25rem;
+    width: 100%;
+  }
+  .contactInfo > h1 {
+    text-align: end;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: 17%;
+  }
+  .contactInfo > p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 1rem;
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+@media only screen and (min-device-width: 776px) and (max-device-width: 1140px) {
+  .contactContainer {
+    padding: 5% 10% !important;
+    display: flex;
+    column-gap: 3rem;
+    justify-content: start;
+  }
+  .googlemap {
+    height: 25rem;
+    width: 30rem !important;
+  }
+  .contactInfo > h1 {
+    text-align: end;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: 17%;
+  }
+  .contactInfo > p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 1040px) and (max-device-width: 1448px) {
   .googlemap {
     height: 29.2rem;
-    width: 35.5rem;
+    width: 100%;
   }
   .contactContainer {
-    padding: 5% 10%;
-    display: flex;
+    padding: 0% 10%;
+    padding-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+    margin-top: 10%;
   }
   .contactUnderline {
     background-size: 46%;
@@ -110,4 +153,4 @@
   .contactContainer {
     margin-top: 5% !important;
   }
-}
+} 

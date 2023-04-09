@@ -44,14 +44,14 @@ const CommonBanner = () => {
       {pathname.includes("/testimonials") && (
         <div className="testimonialBannerComponent">
           <h1 className="text-white text-6xl my-8 font-semibold">
-            <span className="highliteText">Happy</span> Customers <br/>Say<span className="highliteText"> ABOUT </span>Us
+            <span className="highliteText"> Happy </span> Customers <br/> Say <span className="highliteText"> ABOUT </span> Us
           </h1>
         </div>
       )}
       {pathname.includes("/contact") && (
         <div className="contactBannerComponent">
           <h1 className="text-white text-6xl my-8 font-semibold">
-           A <span className="highliteText">FREE</span> No Obligation Call Should<span className="highliteText">SAVE</span>YOU Thousands!
+           A <span className="highliteText">FREE</span> No Obligation <br/> Call Should <span className="highliteText"> SAVE </span> YOU <br/> Thousands!
           </h1>
         </div>
       )}

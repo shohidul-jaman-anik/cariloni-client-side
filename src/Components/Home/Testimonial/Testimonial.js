@@ -47,7 +47,7 @@ const Testimonial = () => {
           <div className="contentTestimonial z-10 relative py-14 px-12   w-full  min-h-360px rounded md:rounded-r-none  bg-opacity-70 md:bg-opacity-100 text-white">
             <div className=" mx-10 max-w-md flex flex-col">
               <h1 className="text-white text-4xl font-bold ">
-                Happy <span className="underlineArrow"> customers </span> <br/> Say about us
+                Happy <span className="underlineArrow"> Customers </span> <br/> Say About Us
               </h1>
 
               {/* ::Quote SVG */}
@@ -78,7 +78,7 @@ const Testimonial = () => {
           </div>
 
           {/* :BUTTONS */}
-          <div className="arrowButton z-10 absolute bottom-11  right-1/2 md:-right-3 py-1 px-3 space-x-3 flex text-yellow-100 transform translate-x-1/2 md:translate-x-0 mr-16">
+          <div className="arrowButton z-10 absolute bottom-11 md:-right-3 -right-6 py-1 px-3 space-x-3 flex text-yellow-100 transform translate-x-1/2 md:translate-x-0 mr-16">
             <img
             src={rightArrow}
               type="button"

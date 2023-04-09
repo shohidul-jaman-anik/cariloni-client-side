@@ -4,7 +4,7 @@
   align-items: center;
   /* grid-template-columns: repeat(2, 1fr); */
   padding: 5% 12%;
-  column-gap: 5rem;
+  column-gap: 4rem;
 }
 .dealExampleSection {
   display: grid;
@@ -12,10 +12,10 @@
   gap: 1rem;
   width: 45% !important;
   row-gap: 7.3rem;
-  column-gap: 3.8rem;
+  column-gap: 2.8rem;
 }
 .ExampleImage{
-  width: 50% !important;
+  width: 40% !important;
   
 }
 .ExampleDetails h1 {
@@ -51,7 +51,7 @@
   }
   .dealContainer {
     flex-direction: column;
-    padding: 5% 5%;
+    padding: 5% 5% ;
   }
   .ExampleDetails {
     margin-top: 7%;
@@ -67,11 +67,11 @@
         Responsive For Tablet 
 --------------------------------------*/
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
   .dealExampleSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 90% !important;
+    width: 100% !important;
     row-gap: 2.3rem;
     /* margin-left: 1rem; */
   }
@@ -85,9 +85,9 @@
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1484px) {
   .ExampleImage {
-    width: 50%;
+    width: 50% !important;
   }
   .ExampleDetails h1 {
     font-size: 21px;
@@ -104,10 +104,10 @@
   }
   .dealContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     /* grid-template-columns: repeat(2, 1fr); */
-    padding: 5% 12%;
+    padding: 5% 10%;
     column-gap: 8%;
   }
 }

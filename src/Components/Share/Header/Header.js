@@ -111,8 +111,8 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div className="navbar-center  mx-auto hidden lg:flex">
-          <ul className="mx-auto items-center menu-horizontal px-1">
+        <div className="navbar-end mx-auto hidden lg:flex">
+          <ul className=" items-center menu-horizontal px-1">
             {menuItems}
           </ul>
         </div>

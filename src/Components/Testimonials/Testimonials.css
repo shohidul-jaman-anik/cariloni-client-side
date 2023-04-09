@@ -29,3 +29,13 @@
     row-gap: 1.5rem;
   }
 }
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
+  .reviewContainer {
+    padding: 5% 10%;
+  }
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .reviewContainer {
+    padding: 5% 10%;
+  }
+}

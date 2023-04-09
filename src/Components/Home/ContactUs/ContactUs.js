@@ -6,8 +6,8 @@ import location from "../../../Asset/Page1/location.png";
 
 const ContactUs = () => {
   return (
-    <div className="contactContainer">
-      <div className="contactInfo ">
+    <div className="contactContainer ">
+      <div className="contactInfo mx-auto">
         <h1 className="contactUnderline ">Contact Us</h1>
         <p>
           Duis aute irure dolor in <br /> reprehenderit in voluptate velit{" "}

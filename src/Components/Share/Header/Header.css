@@ -45,6 +45,9 @@
     margin: 0%;
     padding: 0%;
   }
+  #sidebar:hover {
+    background-size: 0px 80px !important;
+  }
 }
 
 @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
@@ -53,7 +56,11 @@
     justify-content: start;
   }
   .navContainer {
-    padding: 0% 5%;
+    padding: 0% 10% !important;
+  }
+
+  #sidebar:hover {
+    background-size: 0px 80px !important;
   }
 }
 
@@ -62,7 +69,7 @@
     margin-left: 5%;
   }
   .navContainer {
-    padding: 0% 10%;
+    padding: 0% 10% !important;
     
   }
 }

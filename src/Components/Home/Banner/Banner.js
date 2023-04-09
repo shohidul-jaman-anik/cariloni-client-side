@@ -10,7 +10,7 @@ const Banner = () => {
   const { pathname } = useLocation();
   return (
     <div>
-      {!pathname.includes("services") ? (
+      {/* {!pathname.includes("services") ? ( */}
         <div className="bannerContainer  bg-base-100 shadow-xl rounded-none grid sm:grid-cols-1">
           <div className="flex items-center">
             <div>
@@ -28,8 +28,8 @@ const Banner = () => {
 
           <img className="bannerImg" src={BannerImg} alt="Banner" />
         </div>
-      ) : (
-        <div className="bannerContainer  bg-base-100 shadow-xl rounded-none  grid sm:grid-cols-1">
+      {/* ) : ( */}
+        {/* <div className="bannerContainer  bg-base-100 shadow-xl rounded-none  grid sm:grid-cols-1">
           <div className="flex items-center mr-10">
             <div className="serviceContent">
               <h2 className=" text-white text-5xl leading-">
@@ -68,8 +68,8 @@ const Banner = () => {
             src={servicesBanner}
             alt="Services Banner"
           />
-        </div>
-      )}
+        </div> */}
+      {/* )} */}
     </div>
   );
 };

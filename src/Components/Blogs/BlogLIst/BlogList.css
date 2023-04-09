@@ -9,6 +9,8 @@
           Responsive For Tablet 
  --------------------------------------*/
 
- @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
-    
+ @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
+  .servicesContainer {
+    padding: 5% 10% !important;
+  }
  }

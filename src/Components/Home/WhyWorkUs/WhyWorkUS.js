@@ -1,10 +1,10 @@
 import React from "react";
 import "./WhyWorkUs.css";
-import img1 from "../../../Asset/Page1/Vector.png";
-import img2 from "../../../Asset/Page1/Vector-3.png";
-import img3 from "../../../Asset/Page1/Vector-1.png";
-import img4 from "../../../Asset/Page1/Vector-4.png";
-import img5 from "../../../Asset/Page1/Vector-2.png";
+import img1 from "../../../Asset/Page1/Vector-2.svg";
+import img2 from "../../../Asset/Page1/vector-3.svg";
+import img3 from "../../../Asset/Page1/vector-5.svg";
+import img4 from "../../../Asset/Page1/Vector.svg";
+import img5 from "../../../Asset/Page1/Vector-6.svg";
 
 const WhyWorkUS = () => {
   const whyWorkWithUS = [
@@ -49,10 +49,10 @@ const WhyWorkUS = () => {
     <div className="workUsContainer">
       <div className="work-us-section">
         <div className="card ">
-          <div className="card-body">
-            <h2 className="font-bold text-slate-700 text-4xl ">
-              Why Work with{" "}<span className="underlineArrow">Carloni Mortgage</span> Brokers?
-            </h2>
+          <div className="card-body first-card-body">
+            <h1 className="firstCard font-extrabold text-slate-700 text-4xl ">
+              Why Work with{" "} <br/> <span className="underlineArrow">Carloni Mortgage</span> Brokers?
+            </h1>
             <p>
               Our brokers work with banks, credit unions, online lenders,
               private companies and many others to find the mortgage that is
@@ -66,7 +66,7 @@ const WhyWorkUS = () => {
             <img
               src={service.img}
               alt="services name"
-              className=" h-16 w-12 ms-9 mt-10"
+              className=" h-16 w-16 ms-9 mt-10"
             />
             <div className="card-body">
               <h2 className="card-title text-slate-700">{service.name}</h2>

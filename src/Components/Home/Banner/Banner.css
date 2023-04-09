@@ -78,7 +78,7 @@
     width: 100%; */
   }
   .bannerContainer {
-    padding: 5% 8%;
+    padding: 0% 10% !important;
   }
   .serviceContent > h2 {
     font-size: xx-large;
@@ -87,7 +87,7 @@
     font-size: large;
   }
   .bannerImg {
-    width: 110%;
+    width: 120%;
     height: 90%;
     margin-top: 2rem;
     float: right !important;
@@ -103,15 +103,15 @@
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+@media only screen and (min-device-width: 1049px) and (max-device-width: 1448px) {
   .bannerContainer {
     height: 53rem !important;
-    padding: 5% 10%;
+    padding: 5% 10% ;
   }
   .bannerImg {
     width: fit-content;
   }
   .bannerContent > div {
-    font-size: 42px;
+    font-size: 54px;
   }
 }

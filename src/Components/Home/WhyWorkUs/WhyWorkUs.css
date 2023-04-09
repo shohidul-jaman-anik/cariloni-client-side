@@ -6,8 +6,8 @@
 .card-body > h2 {
   font-family: Barlow;
   font-style: Bold;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: 26px;
+  line-height: 31px;
 }
 .card-body > p {
   font-family: Poppins;
@@ -21,6 +21,18 @@
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
+.firstCard {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 50px;
+  margin-bottom: 5%;
+}
+.first-card-body {
+  padding: 0% !important;
+}
+
+
 @media only screen and (max-width: 600px) {
   .workUsContainer {
     padding: 5% 5%;
@@ -50,15 +62,30 @@
     background-size: 160rem;
     margin-top: 5%;
   }
+  .firstCard {
+    font-family: Barlow;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 50px;
+  }
   .work-us-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+  .first-card-body {
+    padding: 0% !important;
+  }
 }
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .workUsContainer {
     padding: 5% 10%;
+  }
+  .firstCard {
+    font-family: Barlow;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 50px;
   }
   .card-body > h2 {
     font-size: 36px;
