@@ -26,10 +26,10 @@ const ServicesList = () => {
         companies <br /> and many others to find the mortgage that is best for
         YOU.
       </p>
-      <div className="servicesList p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div className="servicesList">
         {services.map((service) => (
           <div
-            className="rounded overflow-hidden shadow-lg"
+            className="servicesCard rounded overflow-hidden shadow-lg"
             onClick={() => handleServiceDetails(service.id)}
           >
             <img className="w-full" src={service.img} alt="Mountain" />
@@ -38,9 +38,9 @@ const ServicesList = () => {
               alt="services logo"
               className="mt-[-30px] ml-5"
             ></img>
-            <div className="px-6 py-6">
-              <div className=" mb-2 card-title">{service.name}</div>
-              <p className=" text-base">{service.description.substring(0, 150)}</p>
+            <div className="serviceIntro px-6 py-6">
+              <div className=" mb-2 ">{service.name}</div>
+              <p className="">{service.description.substring(0, 150)}</p>
             </div>
           </div>
         ))}

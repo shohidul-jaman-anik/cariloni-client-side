@@ -19,6 +19,17 @@
   line-height: 50px;
   margin-bottom: 1rem;
 }
+.teamDetails h3 {
+  color: #001e3e;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.teamDetails >p {
+  color: #001e3e;
+  font-size: 16px;
+  line-height: 24px;
+}
 .dealHeading {
   color: #001e3e;
   font-family: "Barlow";
@@ -47,7 +58,7 @@
     font-size: large;
   }
   .teamDetails p {
-    font-size: small;
+    font-size: 16px;
   }
 }
 
@@ -64,8 +75,8 @@
     height: 100%;
   }
   .teamDetails h1 {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .teamDetails h3 {
     font-size: large;

@@ -1,16 +1,143 @@
-@media only screen and (max-width: 600px) {
-    .servicesContainer {
-        padding: 5% 5%;
-      }
+.blogsContainer{
+  padding: 5% 15%;
 }
+.blogsList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+
+.blogCard {
+  width: 408px ;
+  height: 365px ;
+}
+
+.blogHeading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #001e3e;
+  font-family: Barlow;
+  margin-bottom: 5px;
+}
+.blogdate {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color:#84888B;
+  font-family: Barlow;
+}
+
+
 
 
 /*--------------------------------------
           Responsive For Tablet 
  --------------------------------------*/
 
- @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
-  .servicesContainer {
-    padding: 5% 10% !important;
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .blogsContainer {
+    padding: 5% 5% !important;
   }
- }
+  .blogsList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+  .blogCard {
+    width: 98% ;
+    height: 100%;
+  }
+  
+  .blogHeading{
+    font-size: 21px;
+    line-height: 30px;
+  }
+  
+ 
+
+}
+
+/*--------------------------------------
+        Responsive For Tablet 
+--------------------------------------*/
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 778px) {
+  .blogsContainer {
+    padding: 5% 10% ;
+  }
+  .blogCard {
+    width: 98% ;
+    height: 100%;
+  }
+  .blogsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+  
+  .blogHeading{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+}
+
+@media only screen and (min-device-width: 778px) and (max-device-width: 1026px) {
+  .blogsContainer {
+    padding: 5% 10% ;
+  }
+  .blogsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+  .blogCard {
+    width: 98% ;
+    height: 100%;
+  }
+  .blogHeading{
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 1026px) and (max-device-width: 1480px) {
+  .blogsContainer {
+    padding: 5% 10% ;
+  }
+  .blogsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+  .blogCard {
+    width: 98% ;
+    height: 100%;
+  }
+ 
+}
+@media only screen and (min-device-width: 1480px) and (max-device-width: 2250px) {
+  .blogsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    row-gap: 38px ;
+    column-gap: 0px ;
+  
+  }
+  .blogCard {
+    width: 92% ;
+    height: 100%;
+  }
+
+}

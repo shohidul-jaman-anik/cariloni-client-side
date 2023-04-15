@@ -13,18 +13,21 @@
   font-size: 42px;
   line-height: 58px;
 }
+.contentTestimonial > div > p{
+  font-family: Barlow;
+  font-size: 18px;
+  line-height: 28px;
+}
 
 @media only screen and (max-width: 600px) {
   .contentTestimonial {
-    padding: 0px;
+    padding: 20px 0px;
   }
   .contentTestimonial > div > h1 {
-    font-size: large;
-    line-height: 24px;
+    font-size: x-large;
+    line-height: 34px;
   }
-  .contentTestimonial > div > p {
-    font-size: small;
-  }
+ 
   .contentTestimonial > div > h3 {
     font-size: small;
   }
@@ -38,8 +41,10 @@
     margin: 1rem 0rem;
   }
   .arrowButton {
-    bottom: 5px;
-    
+    bottom: 20px;
+      width: 40px;
+      height: 30px;
+right: 10px;
   }
 }
 

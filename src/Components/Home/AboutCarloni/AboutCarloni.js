@@ -3,18 +3,18 @@ import ShareButton from "../../Share/ShareButton/ShareButton";
 import { Link } from "react-router-dom";
 import carloni from "../../../Asset/Page1/carloni.png";
 import "./AboutCarloni.css";
-import arrow from "../../../Asset/Page1/Arrow 1.png"
-
+import arrow from "../../../Asset/Page1/Arrow 1.png";
+import { BsArrowRight } from "react-icons/bs";
 
 const AboutCarloni = () => {
   return (
     <div className="carloniContainer ">
       <div className="carloni-section">
-        <div className=" lg:mr-20">
+        <div className="item-1  lg:mr-20">
           <img className="aboutCarloniImg mt-[-55px]" src={carloni} alt="" />
         </div>
-        <div className=" text-white carloniContent">
-          <h1 className="font-bold text-4xl">
+        <div className="item-2 text-white carloniContent">
+          <h1 className="">
             About <span className="underlineArrow">Carloni Mortgage</span>
           </h1>
           <p className="mt-5">
@@ -30,14 +30,15 @@ const AboutCarloni = () => {
 
           <p className="mt-5">-You've Come To The Right Place.</p>
           <div className="btnSection my-5 flex items-center">
-            <button className="btn btn-outline carloniBtn">
+            <button className="btn btn-outline hover:bg-white hover:text-slate-900 px-7 carloniBtn">
               <Link to="/">Read More</Link>
             </button>
-            <p className="ms-5 text-yellow-200 flex">About Rene Carluni <img src={arrow} alt="arrow" className="ms-3"></img></p>
+            <p className="rightArrow lg:ms-5 ms-2 2xl:ms-2 my-auto text-yellow-200 flex">
+             <p> About Rene Carluni</p>
+              <BsArrowRight className="rArrow"/>
+            </p>
           </div>
-          <div className="boxArrow">
-             
-          </div>
+          <div className="boxArrow"></div>
         </div>
       </div>
     </div>

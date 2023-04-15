@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+ 
 }
 .detailsContent {
   position: relative;
@@ -16,8 +17,20 @@
 .detailsImg {
   margin-top: 4rem;
   margin-left: 4rem;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
+  width: 1280px;
+  height: 596px;
+  object-fit: cover;
+}
+.header{
+  color: #001E3E;;
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 1rem;
+  font-weight: bolder;
 }
 .detailsTinyBox {
   background-image: url("../../../Asset/Details/Rectangle\ 35.png");
@@ -28,7 +41,7 @@
   width: 80px;
   /* bottom: 5%; */
   right: -2%;
-  top: 52%;
+  top: 46%;
 }
 .DetailsHeading {
   margin-bottom: 5rem;
@@ -84,11 +97,23 @@
   }
   .detailsImgSection {
     background-image: url("../../../Asset/Details/Rectangle\ 66.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
   }
   .detailsImg {
+    height: 100%;
+    width: 100%;
     margin-bottom: -5%;
     margin-left: 10%;
+    object-fit: cover !important;
+  }
+  .header{
+    color: #001E3E;;
+    font-family: Barlow;
+    font-style: Bold;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    margin-bottom: 1rem;
+    font-weight: bolder;
   }
   .detailsTinyBox {
     /* background-image: url("../../../Asset/Details/Rectangle\ 35.png");
@@ -119,9 +144,19 @@
 --------------------------------------*/
 
 @media only screen and (min-device-width: 576px) and (max-device-width: 788px) {
+  .detailsImg {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -5%;
+    margin-left: 10%;
+    object-fit: cover !important;
+  }
+  .header{
+    margin-top: 15% !important;
+  }
   .detailsTinyBox {
-    right: -12%;
-    top: 25% !important;
+    right: -5%;
+    top: 30% !important;
   }
   .ServiceDetailsSection {
     padding: 5% 5%;
@@ -138,9 +173,12 @@
   .ServiceDetailsSection {
     padding: 5% 10%;
   }
+  .header{
+    margin-top: 15% !important;
+  }
   .detailsTinyBox {
     right: -5%;
-    top: 38% !important;
+    top: 36% !important;
   }
   .detailsImgSection {
     background-image: url("../../../Asset/Details/Rectangle\ 66.png");
@@ -148,15 +186,32 @@
     background-position: top left;
     /* background-size: 40%; */
   }
+  .detailsImg {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -5%;
+    margin-left: 10%;
+    object-fit: cover !important;
+  }
 }
 
 @media only screen and (min-device-width: 1078px) and (max-device-width: 1444px) {
+  .header{
+    margin-top: 10% !important;
+  }
+  .detailsImg {
+    height: 100%;
+    width: 100%;
+    margin-bottom: -5%;
+    margin-left: 10%;
+    object-fit: cover !important;
+  }
   .ServiceDetailsSection {
     padding: 5% 10%;
   }
   .detailsTinyBox {
     /* bottom: 5%; */
-    right: -6%;
-    top: 44% !important;
+    right: -4%;
+    top: 48% !important;
   }
 }

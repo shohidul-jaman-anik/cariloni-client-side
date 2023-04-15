@@ -35,22 +35,24 @@ const Header = () => {
           Report
         </NavLink>
       </li>
-      <button className="headerBtn  btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
-        <Link to="/contact">Contact</Link>
-      </button>
+      <Link to="/contact" className="pl-4">
+        <button className="headerBtn btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
+          Contact
+        </button>
+      </Link>
     </>
   );
   return (
     <div className="flex justify-between items-center navContainer ">
-      {/* <div>
-        <Link to="/">
-          <img src={logo} alt="" className="navLogo"></img>
-        </Link>
-      </div> */}
-      <div className=" navbar bg-base-100">
+      <div className="  navbar bg-base-100">
+        <div>
+          <Link to="/">
+            <img src={logo} alt="" className="navLogo"></img>
+          </Link>
+        </div>
         <div className="">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden ">
+          <div className="dropdown  dropdown-end flex !ml-auto">
+            <label tabIndex={0} className=" btn btn-ghost lg:hidden ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 "
@@ -68,7 +70,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className=" dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
+              className=" dropdown-content mt-20  p-2 shadow bg-base-100 rounded-box w-52 "
             >
               <>
                 <li id="sidebar" className="font-bold navLink my-3">
@@ -99,29 +101,17 @@ const Header = () => {
                     Report
                   </NavLink>
                 </li>
-                <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900 !ml-5  mb-3">
+                <button className="headerBtn primaryBtn  btn btn-outline btn-white border-white text-white bg-slate-900 !ml-5  mb-3">
                   <Link to="/contact">Contact</Link>
                 </button>
               </>
             </ul>
           </div>
-          <div>
-            <Link to="/">
-              <img src={logo} alt="" className="navLogo"></img>
-            </Link>
-          </div>
         </div>
         <div className="navbar-end mx-auto hidden lg:flex">
-          <ul className=" items-center menu-horizontal px-1">
-            {menuItems}
-          </ul>
+          <ul className=" items-center menu-horizontal px-1">{menuItems}</ul>
         </div>
       </div>
-      {/* <div className="navbar-end"> */}
-      {/* <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900">
-        <Link to="/contact">Contact</Link>
-      </button> */}
-      {/* </div> */}
     </div>
   );
 };

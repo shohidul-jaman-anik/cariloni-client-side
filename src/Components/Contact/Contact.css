@@ -33,7 +33,7 @@
 .crloniImg {
   position: absolute;
   top: -30%;
-  right: -20%;
+  right: -15%;
 }
 
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1444px) {
@@ -54,21 +54,15 @@
     background-position: right top; */
     background-color: #133e6d;
     height: 50%;
-    width: 50%;
+    width: 60%;
     padding: 4rem 3rem;
     margin: 0 auto;
     margin-top: 15%;
     position: relative;
   }
-  .contactInformation > h1 {
-    font-size: xx-large;
-  }
-  .contactInformation > div>div >h1{
-    font-size: large;
-  }
-  .contactInformation > div>div >img{
-    height: 2rem;
-  }
+
+  
+ 
   .crloniImg {
     position: absolute;
     top: -30%;
@@ -115,7 +109,7 @@
   }
 }
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 780px) {
   .contactInformation {
     height: 65%;
     width: 70%;
@@ -141,9 +135,30 @@
     font-size: xx-large;
   }
   .contactInformation > div>div >h1{
-    font-size: xx-large;
+    font-size: x-large;
   }
   .contactInformation > div>div >img{
     height: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
+  .contactInformation {
+    height: 70%;
+    width: 70%;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    margin-top: 25%;
+    position: relative;
+  }
+  .crloniImg {
+    position: absolute;
+    top: -30%;
+    right: -10%;
+    height: 80%;
+  }
+  .contactMap {
+    width: 70%;
+    height: 34.5rem;
   }
 }

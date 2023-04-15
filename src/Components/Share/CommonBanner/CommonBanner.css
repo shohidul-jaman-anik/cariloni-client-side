@@ -5,6 +5,7 @@
   /* background-attachment: fixed; */
   /* background-size: contain; */
 }
+
 /* .contactBannerComponent {
   padding: 6% 15%;
   background-image: url("../../../Asset/Contact/Bg.png");
@@ -18,18 +19,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .contactBannerComponent {
   padding: 6% 15%;
   background-image: url("../../../Asset/Contact/Bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .commonBannerComponent {
   padding: 6% 15%;
   background-image: url("../../../Asset/Details/Bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .blogBannerComponent {
   padding: 6% 15%;
   background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
@@ -37,67 +41,100 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.commonBannerComponent > h1 {
+
+.commonBannerComponent>h1 {
   font-size: 62px;
   line-height: 82px;
   font-weight: 700;
   font-family: "Barlow";
   margin-top: 5px;
 }
-.contactBannerComponent > h1 {
+
+.contactBannerComponent>h1 {
   font-size: 62px;
   line-height: 82px;
   font-weight: 700;
   font-family: "Barlow";
   margin-top: 5px;
 }
-.commonBannerComponent > h3 {
+
+.blogBannerComponent>h1 {
+  font-size: 62px;
+  line-height: 82px;
+  font-weight: 700;
+  font-family: "Barlow";
+  margin-top: 5px;
+}
+
+.commonBannerComponent>h3 {
   font-size: 32px;
   line-height: 38px;
   font-family: "Barlow";
 }
+
 @media only screen and (max-width: 600px) {
-  .commonBannerComponent > h1 {
+  .commonBannerComponent>h1 {
     font-size: xx-large;
     line-height: 35px;
     margin-top: 5px;
   }
-  .contactBannerComponent > h1 {
+
+  .contactBannerComponent>h1 {
     font-size: xx-large;
     line-height: 50px;
     margin-top: 5px;
   }
-  .commonBannerComponent > h3 {
+
+  .commonBannerComponent>h3 {
     font-size: medium;
     line-height: 35px;
   }
+
   .blogBannerComponent {
     padding: 5% 5%;
+
   }
+
   .contactBannerComponent {
     padding: 5% 5%;
   }
+
   .aboutBannerComponent {
     padding: 5% 5%;
   }
+
   .testimonialBannerComponent {
     padding: 5% 5%;
   }
-  .blogBannerComponent >h1{
+
+  .blogBannerComponent>h1 {
     font-size: 42px;
+    line-height: 52px;
   }
-  .contactBannerComponent >h1{
+
+  .contactBannerComponent>h1 {
     font-size: 42px;
+    line-height: 52px;
   }
-  .aboutBannerComponent >h1{
+
+  .aboutBannerComponent>h1 {
     font-size: 42px;
+    line-height: 52px;
   }
-  .testimonialBannerComponent >h1{
+
+  .aboutBannerComponent>h3 {
+    font-size: 22px;
+  }
+
+  .testimonialBannerComponent>h1 {
     font-size: 42px;
+    line-height: 52px;
   }
-  .commonBannerComponent > h3 {
+
+  .commonBannerComponent>h3 {
     font-size: 16px !important;
   }
+
   .commonBannerComponent {
     padding: 5% 5%;
   }
@@ -108,49 +145,85 @@
 --------------------------------------*/
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1030px) {
-  .commonBannerComponent > h1 {
-    font-size: xx-large;
-    line-height: 35px;
-    margin-top: 5px;
-  }
-  .commonBannerComponent > h3 {
+
+  .commonBannerComponent>h3 {
     font-size: medium;
     line-height: 35px;
   }
+
   .blogBannerComponent {
     padding: 5% 10%;
     line-height: 35px;
   }
+
   .contactBannerComponent {
     padding: 5% 10%;
   }
+
   .aboutBannerComponent {
     padding: 5% 10%;
   }
+
+  .aboutBannerComponent>h3 {
+    font-size: 24px;
+  }
+
   .testimonialBannerComponent {
     padding: 5% 10%;
   }
+
   .commonBannerComponent {
     padding: 5% 10%;
   }
+
+  .commonBannerComponent >h1{
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .blogBannerComponent>h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .contactBannerComponent>h1 {
+    font-size: 42px !important;
+    line-height: 52px;
+  }
+
+  .aboutBannerComponent>h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .testimonialBannerComponent>h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
 }
+
 @media only screen and (min-device-width: 1030px) and (max-device-width: 1480px) {
   .blogBannerComponent {
     padding: 5% 10%;
   }
+
   .contactBannerComponent {
     padding: 5% 10%;
   }
+
   .aboutBannerComponent {
     padding: 5% 10%;
   }
+
   .testimonialBannerComponent {
     padding: 5% 10%;
   }
+
   .commonBannerComponent {
     padding: 5% 10%;
   }
 }
+
 /* @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
   .blogBannerComponent {
     padding: 5% 10%;
@@ -168,4 +241,3 @@
     padding: 5% 10%;
   }
  } */
-

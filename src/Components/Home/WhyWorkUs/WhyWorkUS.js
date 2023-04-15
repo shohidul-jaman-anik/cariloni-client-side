@@ -48,7 +48,7 @@ const WhyWorkUS = () => {
   return (
     <div className="workUsContainer">
       <div className="work-us-section">
-        <div className="card ">
+        <div className="workUsCard card ">
           <div className="card-body first-card-body">
             <h1 className="firstCard font-extrabold text-slate-700 text-4xl ">
               Why Work with{" "} <br/> <span className="underlineArrow">Carloni Mortgage</span> Brokers?
@@ -62,7 +62,7 @@ const WhyWorkUS = () => {
         </div>
 
         {whyWorkWithUS.map((service) => (
-          <div className="card bg-base-100 shadow-xl">
+          <div className="workUsCard workUsBorder card bg-base-100 shadow-md hover:shadow-2xl">
             <img
               src={service.img}
               alt="services name"

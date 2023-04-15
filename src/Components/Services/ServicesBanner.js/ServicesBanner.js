@@ -8,8 +8,8 @@ const ServicesBanner = () => {
         <div className="serviceBannerContainer  bg-base-100 shadow-xl rounded-none  grid sm:grid-cols-1">
         <div className="flex items-center mr-10">
           <div className="serviceContent">
-            <h2 className=" text-white text-5xl leading-">
-              <div className="my-5 ">Mortgage Services</div>
+            <h2 className="">
+             Mortgage Services
             </h2>
             <h3 className=" text-white text-3xl my-5">
               What does a mortgage broker do?{" "}

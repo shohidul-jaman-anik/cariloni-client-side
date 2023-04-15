@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+column-gap: 8%;
 }
 .contactForm input {
   width: 509px;
@@ -34,15 +35,16 @@
     padding: 5% 5%;
   }
   .reportSection {
-    /* display: grid;
-        grid-template-columns: repeat(2,1fr); */
-    flex-direction: column;
+    /* flex-direction: column; */
+display:block;
     justify-content: center;
     align-items: center;
   }
   .contactForm input {
-    width: 95%;
+    width: 99%;
     height: 40px;
+    align-items: center;
+    margin: 0% auto;
   }
  
   .contactSideContent > h1 {

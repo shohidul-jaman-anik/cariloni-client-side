@@ -17,24 +17,20 @@ const BlogList = () => {
     navigate(`/blogDetails/${id}`);
   };
 
-
   return (
-    <div className="servicesContainer">
-      <div className="servicesList p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <div className="blogsContainer">
+      <div className="blogsList">
         {blogs.map((blog) => (
           <div
-            className="rounded overflow-hidden shadow-lg"
+            className="blogCard rounded overflow-hidden"
             key={blog.id}
             onClick={() => handleBlogDetails(blog.id)}
           >
             <img className="w-full" src={blog.img} alt="Mountain" />
-            {/* {console.log(blog?.date ,"dateeeeeeee")} */}
-            <div className="px-6 py-6">
-              {/* <p className="text-gray-700">{blog?.date}</p> */}
-              <div className="font-bold text-gray-700 text-xl mb-2">
-                {blog.name}
-              </div>
-              {/* <p className="text-gray-700 text-base">{blog.description}</p> */}
+
+            <div className="">
+              <p className="blogdate py-3">14 Oct 2022 </p>
+              <h1 className="blogHeading">{blog.name}</h1>
             </div>
           </div>
         ))}

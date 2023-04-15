@@ -17,37 +17,53 @@ const BlogDetails = () => {
         setBlog(newData);
       });
   }, [id]);
-  console.log(blog ,"anikkkkkkkkk")
+  console.log(blog, "anikkkkkkkkk");
 
   if (!blog) {
     return <div>Loading...</div>;
   }
 
-
-
   return (
-    <div>
+    <div className="">
       <div>
         <div className="blogBanner">
           <img src={blog.img} className="blogBannerImg" alt=""></img>
         </div>
       </div>
-      <div className="blogDetailsSection">
-        <h1>{blog?.name}</h1>
+      <div>
+        <div className="blogDetailsSection">
+          <h1>{blog?.name}</h1>
 
-        <div className="blogDevider">
-          <hr></hr>
+          <div className="blogSubInfo">
+            <h1 className="blogDate">14-10-2022</h1>
+            <p className="">By {blog.author}</p>
+          </div>
+
+          <div className="blogDevider">
+            <hr></hr>
+          </div>
+
+          {/* <p>{blog?.description}</p> */}
+          {blog?.description?.map((d) => (
+            <div className="blogContent">
+              <h3 className="my-5">{d.title}</h3>
+              <p className="mb-10">{d.content1}</p>
+              <p className="mb-10">{d.content2}</p>
+              <p className="mb-10">{d.content3}</p>
+            </div>
+          ))}
         </div>
-        <h1>{blog?.date}</h1>
-        
-        {/* <p>{blog?.description}</p> */}
-        {blog?.description?.map(d=><div>
-            <h3 className="my-5">{d.title}</h3>
-            <p className="mb-10">{d.content1}</p>
-            <p className="mb-10">{d.content2}</p>
-            <p className="mb-10">{d.content3}</p>
-        </div>)}
-
+        <div className="authorSection">
+          <h5 className="font-bold text-3xl mb-5">About the Author</h5>
+          <div className="authorContainer flex items-center ">
+            <img src={blog.authorImg} alt=""></img>
+            <div className="author ml-5">
+              <p>{blog.author}</p>
+              <h5 className="">{blog.authorName}</h5>
+              <p className="aboutAuthor">{blog.aboutAuthor}</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

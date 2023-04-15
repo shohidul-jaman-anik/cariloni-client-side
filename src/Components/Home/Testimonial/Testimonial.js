@@ -65,7 +65,7 @@ const Testimonial = () => {
                 
               </div>
               {/* ::Testimony */}
-              <p className="text-xl sm:text-1xl lg:text-2xl leading-normal">
+              <p className="">
                 {people[current].testimony}
               </p>
               {/* ::Name */}

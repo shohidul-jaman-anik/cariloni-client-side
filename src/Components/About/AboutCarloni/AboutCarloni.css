@@ -1,26 +1,42 @@
-.aboutCarloni{
+.aboutCarloni {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
     padding: 5% 15%;
 }
-.carloniDetails{
+
+.carloniDetails {
     width: 40%;
 }
 
+.carloniDetails>h1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #000000;
+}
+
 @media only screen and (max-width: 600px) {
-    .carloniDetails{
+    .carloniDetails {
         width: 100%;
     }
-    .carloniDetails >h1{
+
+    .carloniDetails>h1 {
         font-size: 32px;
     }
-    .aboutCarloni{
+    .carloniDetails>p {
+        font-size: 16px;
+    }
+
+    .aboutCarloni {
         flex-direction: column;
     }
-    .aboutCarloni{
-      
+
+    .aboutCarloni {
+
         padding: 5% 5%;
     }
 }
@@ -30,26 +46,29 @@
           Responsive For Tablet 
  --------------------------------------*/
 
- @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
-    .aboutCarloni{
+@media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
+    .aboutCarloni {
         display: flex;
         justify-content: space-between;
         gap: 1rem;
         padding: 5% 10%;
     }
-    .carloniDetails{
+
+    .carloniDetails {
         width: 50%;
     }
-    .carloniDetails >h1{
-        font-size: 26px;
+
+    .carloniDetails>h1 {
+        font-size: 32px;
     }
-    .carloniDetails p{
+
+    .carloniDetails p {
         font-size: 16px;
     }
- }
+}
 
- @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
-    .aboutCarloni{
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+    .aboutCarloni {
         padding: 5% 10%;
     }
-  }
+}

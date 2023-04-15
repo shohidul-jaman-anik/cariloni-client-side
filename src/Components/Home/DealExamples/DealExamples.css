@@ -14,18 +14,20 @@
   row-gap: 7.3rem;
   column-gap: 2.8rem;
 }
-.ExampleImage{
+.ExampleImage {
   width: 40% !important;
-  
 }
 .ExampleDetails h1 {
-  color: #001e3e;
+  color: #001E3E;
   font-size: 24px;
   line-height: 30px;
+  Font-family: Barlow;
   margin-bottom: 1rem;
+  font-weight: bold;
 }
 .ExampleDetails p {
-  color:#2D2D2D;
+  Font-family: Poppins;
+  color: #2d2d2d;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -38,6 +40,27 @@
   text-align: center;
   margin-top: 4rem;
 }
+/* .dealBtn {
+  width: 114px;
+  height: 40px;
+  border: 1px solid rgba(19, 62, 109, 1) !important;
+  padding: 12px, 24px, 12px, 24px !important;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+} */
+
+.dealBtn:hover {
+  background-color: white;
+  color: rgba(19, 62, 109, 1);
+  border: 1px solid rgba(19, 62, 109, 1);
+}
+.dealBtn {
+  padding: 12px 24px;
+  background-color: white;
+  color: rgba(19, 62, 109, 1);
+  border: 1px solid rgba(19, 62, 109, 1);
+}
 
 @media only screen and (max-width: 600px) {
   .dealExampleSection {
@@ -45,13 +68,13 @@
     grid-template-columns: repeat(1, 1fr) !important;
     width: 100% !important;
     /* row-gap: 2.3rem; */
-    row-gap: .3rem;
+    row-gap: 0.3rem;
     margin-top: 1rem !important;
     row-gap: 2.3rem !important;
   }
   .dealContainer {
     flex-direction: column;
-    padding: 5% 5% ;
+    padding: 5% 5%;
   }
   .ExampleDetails {
     margin-top: 7%;
@@ -92,12 +115,12 @@
   .ExampleDetails h1 {
     font-size: 21px;
     line-height: normal;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
   .dealExampleSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: .5rem;
+    gap: 0.5rem;
     width: 50%;
     row-gap: 7.3rem;
     column-gap: 2.8rem;

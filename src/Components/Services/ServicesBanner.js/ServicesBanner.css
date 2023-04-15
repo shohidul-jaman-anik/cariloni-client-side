@@ -14,6 +14,31 @@
   font-family: "Barlow", sans-serif;
 }
 
+.serviceContent>h2 {
+  font-family: Barlow;
+  Font-family: Barlow;
+  Font-style: Bold;
+  Font-size: 62px;
+  Line-height: 82px;
+  color: white;
+}
+
+.serviceContent>h3 {
+  font-family: Barlow;
+  font-weight: 500;
+  Font-size: 36px;
+  Line-height: 43px;
+  color: white;
+}
+
+.serviceContent>p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
 
 @media only screen and (max-width: 600px) {
   .serviceBannerContainer {
@@ -21,14 +46,22 @@
     grid-template-columns: repeat(1, 1fr);
     align-items: center !important;
     padding: 5% 5%;
-    height: 70rem;
+    height: 89rem;
     width: 100%;
     row-gap: 2rem;
   }
-  .bannerContent div {
-    font-size: x-large;
-    line-height: 15px;
+
+  .serviceContent>h2 {
+    Font-size: 36px;
+    Line-height: 42px;
   }
+
+  .serviceContent>h3 {
+    Font-size: 24px !important;
+    Line-height: 28px !important;
+    color: white;
+  }
+
   .bannerImg {
     width: 15rem;
     height: 20rem;
@@ -36,12 +69,15 @@
     float: right !important;
   }
 
-  .serviceContent > h3 {
-    font-size: medium;
+  .serviceContent>h3 {
+    Font-family: Barlow;
+    font-weight: 600;
+    Font-size: 36px;
+    Line-height: 43px;
   }
 }
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 1034px) {
   .serviceBannerContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -50,21 +86,26 @@
     /* height: 36rem;
       width: 100%; */
   }
-  .serviceContent > h2 {
-    font-size: xx-large;
+
+  .serviceContent>h2 {
+    font-size: 46px;
   }
-  .serviceContent > h3 {
-    font-size: large;
+
+  .serviceContent>h3 {
+    font-size: 28px;
+    font-weight: 600;
   }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1440px) {
+@media only screen and (min-device-width: 1035px) and (max-device-width: 1440px) {
   .bannerContainer {
     height: 48rem;
   }
+
   .bannerImg {
     width: fit-content;
   }
+
   .serviceBannerContainer {
     padding: 5% 10% !important;
   }

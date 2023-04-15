@@ -56,7 +56,7 @@ const Services = () => {
   return (
     <div className="servicesContainer">
       <div className="text-center my-10">
-        <h3 className="serviceTitle font-bold text-5xl ">
+        <h3 className="serviceTitle ">
           <span></span> Penticton Morgage Service
         </h3>
         <p className="serviceSubTitile">
@@ -65,18 +65,18 @@ const Services = () => {
           companies and many others to find the mortgage that is best for YOU.
         </p>
       </div>
-      <div className="servicesSection">
+      <div className="servicesSection ">
         {services.map((service) => (
-          <div className="card bg-base-100 shadow-xl">
-            <div className="pt-10 ps-10">
+          <div className="serviceCards  bg-base-100 shadow-lg hover:shadow-2xl ">
+            <div className="">
               <img
                 src={service.img}
                 alt="services name"
                 className="rounded-xl serviceIcon "
               />
             </div>
-            <div className="card-body">
-              <h2 className="card-title text-gray-700 font-bold">
+            <div className="serviceDescription">
+              <h2 className=" text-start text-gray-700 font-bold">
                 {service.name}
               </h2>
               <p>{service.description}</p>
@@ -84,8 +84,8 @@ const Services = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center">
-      <button className="btn gap-2 my-16 ">See More</button>
+      <div className=" tesitmonialBtn !mt-8">
+        <button className=" btn ">See More</button>
       </div>
     </div>
   );

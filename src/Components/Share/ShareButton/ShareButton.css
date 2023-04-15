@@ -4,16 +4,31 @@
   font-weight: 600;
   font-size: 20px;
 }
-
-@media only screen and (max-width: 600px) {
+.primaryBtn:hover{
+  background-color: white;
+  color: #162E47;
+}
+.primaryBtn:hover .callVector{
+  color: #162E47 !important;
+  
+}
+@media only screen and (max-width: 576px) {
   .primaryBtn {
-    width: 65%;
+    width: 69%;
     height: 10% !important;
-    font-size: small;
+    font-size: medium;
     display: flex;
   }
   .callVector {
     height: 10px;
     width: 10px;
+  }
+}
+@media only screen and (min-device-width: 576px) and (max-device-width: 786px) {
+
+  .primaryBtn {
+    /* width: 65%; */
+    height: 10% !important;
+    font-size: small;
   }
 }
